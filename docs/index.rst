@@ -5,7 +5,7 @@ QUINT workflow
    :caption: QUINT workflow
    :maxdepth: 3
 
-   Introduction
+   QUINTintro
    Technical
    NutilCmd
    acknow
