@@ -1,8 +1,8 @@
-Nutil: Neuroscience Image Processing and Analysis Utilities
+QUINT workflow
 ============================================================
 
 .. toctree::
-   :caption: Nutil documentation
+   :caption: QUINT workflow
    :maxdepth: 3
 
    introduction
