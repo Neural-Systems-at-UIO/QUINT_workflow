@@ -1,11 +1,11 @@
 QUINT workflow
-============================================================
+====================
 
 .. toctree::
    :caption: QUINT workflow
    :maxdepth: 3
 
-   introduction
+   Introduction
    Technical
    NutilCmd
    acknow
@@ -15,36 +15,18 @@ QUINT workflow
    publications
    
 .. toctree::
-   :caption: Pre-processing operations
+   :caption: QUINT software
    :numbered:
    :maxdepth: 3
 
-   TiffCreator
-   Transform 
-   Resize
-   
-.. toctree::
-   :caption: Quantifier operation
-   :numbered:
-   :maxdepth: 3
-   
-   QuantifierIntro
-   QuantifierInput
-   QuantifierRun
-   QuantifierOS
-   QuantifierMasks
-   QuantifierReports
-   QuantifierOutput
-   warnings
-   
-   
-.. toctree::
-   :caption: Other QUINT software
-   :maxdepth: 2
-   :hidden:
-   
-   QuickNII_Vis
+   QuickNII
+   VisuAlign
+   DeepSlice
    Ilastik
+   Nutil 
+   QCAlign
+   Meshview Atlas Viewer
    
+
 
 
