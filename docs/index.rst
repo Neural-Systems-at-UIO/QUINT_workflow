@@ -19,7 +19,7 @@ QUINT workflow
    :numbered:
    :maxdepth: 3
    
-   Image requirements
+   Requirements
    Nutil
    
 .. toctree::
@@ -27,9 +27,9 @@ QUINT workflow
    :numbered:
    :maxdepth: 3
 
-   QuickNII - linear registration
-   DeepSlice - automated registration
-   VisuAlign - nonlinear refinement
+   QuickNII
+   DeepSlice
+   VisuAlign
    
 .. toctree::
    :caption: Feature Extraction
@@ -37,15 +37,15 @@ QUINT workflow
    :maxdepth: 3
    
    Ilastik
-   Alternative software
+   AlternativeSeg
    
 .. toctree::
    :caption: Analyse
    :numbered:
    :maxdepth: 3   
    
-   Nutil - Quantifier
-   Meshview Atlas Viewer
+   Nutil
+   Meshview
    
 .. toctree::
    :caption: Quality Control
