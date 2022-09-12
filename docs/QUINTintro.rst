@@ -3,7 +3,7 @@
 
 
 .. note::   
-   **Extract, quantify and analyse labelled features from rodent histological images**. **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about the QUINT workflow.** 
+   **Extract, quantify and analyse labelled features from histological images from mouse and rat**. **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.** 
 
 The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series if images of histological sections from mouse or rat brains. The QUINT workflow generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. All the software are GUI-based and easy to operate, with no requirement for coding ability. 
 
