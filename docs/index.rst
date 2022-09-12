@@ -9,6 +9,12 @@ QUINT workflow
    Technical
    
 .. toctree::
+   :caption: Image preparation
+   :maxdepth: 3
+   
+   Requirements
+   
+.. toctree::
    :caption: Atlas-registration
    :maxdepth: 3
 
