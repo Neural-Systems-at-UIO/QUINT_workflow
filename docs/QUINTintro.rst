@@ -5,8 +5,14 @@
    **Extract, quantify and analyse labelled features from histological mouse and rat brain images**. **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
 
 - The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. 
-- The QUINT workflow generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. 
-- All the software are GUI-based, with no re require coding ability to operate.
+- It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. 
+- All the software are GUI-based, with no requirement for coding ability to operate. 
+- **QuickNII, VisuAlign and DeepSlice** support registration of the images to a reference atlas such as the Allen Mouse Brain Atlas or the Waxholm Atlas of the Sprague Dawley rat. 
+- **Ilastik** enables feature extraction based on supervised machine-learning.
+- **Nutil** is a pre- and post-processing toolbox that supports pre-processing of the images as well as the final quantification step.
+- **QCAlign** supplies functionality for quality control of the section images, as well as quality control of the atlas-registration.
+- **Meshview** is a brain atlas viewer for visualising the point clouds in 3D. 
+
 
 **Watch our video tutorial**
 
