@@ -7,24 +7,33 @@ QUINT workflow
 
    QUINTintro
    Technical
-   NutilCmd
-   acknow
-   release
-   testing
-   support
-   publications
    
 .. toctree::
-   :caption: QUINT software
-   :numbered:
+   :caption: Atlas-registration
    :maxdepth: 3
 
    QuickNII
-   DeepSlice
    VisuAlign
+   DeepSlice
+   
+.. toctree::
+   :caption: Feature extraction
+   :maxdepth: 3
+   
    Ilastik
+   AlternativeSeg
+   
+.. toctree::
+   :caption: Analyse
+   :maxdepth: 3 
+   
    Nutil
    Meshview
+   
+.. toctree::
+   :caption: Quality Control
+   :maxdepth: 3    
+   
    QCAlign
 
 
