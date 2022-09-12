@@ -1,7 +1,9 @@
-**QUINT workflow**
-----------------
+**User documentation**
+-----------------------
 
-Extract, quantify and analyse labelled features from rodent histological images 
+
+.. note::   
+   **Extract, quantify and analyse labelled features from rodent histological images**. **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about the QUINT workflow.** 
 
 The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series if images of histological sections from mouse or rat brains. The QUINT workflow generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. All the software are GUI-based and easy to operate, with no requirement for coding ability. 
 
@@ -12,5 +14,3 @@ The QuickNII, VisuAlign and DeepSlice software support registration of the image
 
 comprises the software QuickNII, VisuAlign, ilastik and Nutil, and allows atlas-based quantification of labelled features in serial histological images from mouse or rat brains.
 
-.. note::   
-   **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about the QUINT workflow.** 
