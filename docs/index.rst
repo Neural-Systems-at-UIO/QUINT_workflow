@@ -15,18 +15,43 @@ QUINT workflow
    publications
    
 .. toctree::
-   :caption: QUINT software
+   :caption: Image Preparation
+   :numbered:
+   :maxdepth: 3
+   
+   Image requirements
+   Nutil
+   
+.. toctree::
+   :caption: Atlas Registration
    :numbered:
    :maxdepth: 3
 
-   QuickNII
-   VisuAlign
-   DeepSlice
+   QuickNII - linear registration
+   DeepSlice - automated registration
+   VisuAlign - nonlinear refinement
+   
+.. toctree::
+   :caption: Feature Extraction
+   :numbered:
+   :maxdepth: 3
+   
    Ilastik
-   Nutil 
-   QCAlign
+   Alternative software
+   
+.. toctree::
+   :caption: Analyse
+   :numbered:
+   :maxdepth: 3   
+   
+   Nutil - Quantifier
    Meshview Atlas Viewer
    
-
+.. toctree::
+   :caption: Quality Control
+   :numbered:
+   :maxdepth: 3   
+   
+   QCAlign
 
 
