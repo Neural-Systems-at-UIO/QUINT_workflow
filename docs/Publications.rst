@@ -1,5 +1,5 @@
 **Cite us**
---------------------------
+=============
 
 * Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn PH, Demuth HU,Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA, Bjaalie JG.
    QUINT: Workflow for quantification and spatial
@@ -19,6 +19,7 @@
    DeepSlice: rapid fully automatic registration of mouse brain imaging to a volumetric atlas. BioRxiv. https://doi.org/10.1101/2022.04.28.489953 
 
 **Related publications**
+-------------------------
 
 
 * Ham GX, Augustine GJ. 
