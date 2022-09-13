@@ -11,4 +11,3 @@ Any image analysis software may be used to generate the segmentations as long as
 
     `FIJI ImageJ: <https://imagej.net/software/fiji/>`_ Fiji is also useful for generating segmentations. 
 
-https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations
