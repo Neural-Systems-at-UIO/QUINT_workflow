@@ -19,10 +19,4 @@ Add a unique ID to each image that reflects the serial order and spacing of the 
 **Preparing images for QuickNII and ilastik**
 -----------------------------------------------
 
-As the image size requirements for QuickNII and ilastik differ, generate two separate series that comply with the respective requirements. 
-
-`QuickNII <https://quicknii.readthedocs.io/en/latest/imageprepro.html>`_ requirements. 
-`Ilastik <https://nutil.readthedocs.io/en/latest/Ilastik.html#preparing-the-images-for-ilastik>`_ requirements.
-
-
-
+As the image size requirements for `QuickNII <https://quicknii.readthedocs.io/en/latest/imageprepro.html>`_ and `Ilastik <https://nutil.readthedocs.io/en/latest/Ilastik.html#preparing-the-images-for-ilastik>`_ differ, generate two separate series that comply with the respective requirements. 
