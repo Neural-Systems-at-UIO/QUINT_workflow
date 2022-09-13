@@ -16,12 +16,13 @@ Add a unique ID to each image that reflects the serial order and spacing of the 
    It is recommended to change the file names as the first step in the QUINT workflow. This ensures that the files are compatible with QuickNII and VisuAlign, and that the output files of QuickNII, VisuAlign and ilastik are directly compatible with Nutil Quantifier. 
 
 
-**Preparing images for QuickNII**
----------------------------------
+**Preparing images for QuickNII and ilastik**
+-----------------------------------------------
 
-**Preparing images for ilastik**
---------------------------------
+As the image size requirements for QuickNII and ilastik differ, generate two separate series that comply with the respective requirements. 
 
+`QuickNII <https://quicknii.readthedocs.io/en/latest/imageprepro.html>`_ requirements. 
+`Ilastik <https://nutil.readthedocs.io/en/latest/Ilastik.html#preparing-the-images-for-ilastik>`_ requirements.
 
 
 
