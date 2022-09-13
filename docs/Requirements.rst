@@ -17,9 +17,9 @@ All the software in the QUINT workflow have input requirements for the images:
 * The format is: _sXXX..., with XXX.. representing the section number (not restricted to three digits). 
 
 For example, for three consecutive sections: 
-tg2345_MMSH_s0001.png
-tg2345_MMSH_s0002.png
-tg2345_MMSH_s0003.png
+tg2345_MMSH_s0001.png |
+tg2345_MMSH_s0002.png |
+tg2345_MMSH_s0003.png |
 
 
 
