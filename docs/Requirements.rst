@@ -1,7 +1,7 @@
 **Preparing the images**
 ==========================
 
-All the software in the QUINT workflow have input requirements for the images:
+All the software in the QUINT workflow have requirements for the input images:
 
 * The file naming convention applies to all the software.
 * As the image size requirements for `QuickNII <https://quicknii.readthedocs.io/en/latest/imageprepro.html>`_ and `Ilastik <https://nutil.readthedocs.io/en/latest/Ilastik.html#preparing-the-images-for-ilastik>`_ differ, generate two separate series that comply with the respective requirements. 
@@ -9,6 +9,8 @@ All the software in the QUINT workflow have input requirements for the images:
 
 .. tip::
    It is recommended to change the file names as the first step in the QUINT workflow. This ensures that the files are compatible with QuickNII and VisuAlign, and that the output files of QuickNII, VisuAlign and ilastik are directly compatible with Nutil Quantifier. 
+
+
 
 **QUINT naming convention**
 -------------------------------
