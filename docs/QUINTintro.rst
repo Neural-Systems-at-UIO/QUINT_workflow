@@ -20,10 +20,4 @@
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-gQigcGMJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-QUINT software
-
-The QuickNII, VisuAlign and DeepSlice support registration of the images to a reference atlas such as the Allen Mouse Brain Atlas or the Waxholm Atlas of the Sprague Dawley rat. The Ilastik software supports feature extraction based on image segmentation. The Nutil software supports the pre-processing of histological images.
-
-
-comprises the software QuickNII, VisuAlign, ilastik and Nutil, and allows atlas-based quantification of labelled features in serial histological images from mouse or rat brains.
 
