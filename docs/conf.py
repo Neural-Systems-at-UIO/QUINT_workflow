@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'QUINT-workflow'
+project = 'QUINT workflow'
 copyright = '20212 NeSys'
 author = 'NeSys'
 
