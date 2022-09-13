@@ -2,7 +2,7 @@
 --------------
 
 .. note::
-   Full user documentation found `here <https://visualign.readthedocs.io/en/latest/>`_. 
+   Find full user documentation `here <https://visualign.readthedocs.io/en/latest/>`_. 
    Download `here <https://www.nitrc.org/projects/visualign>`_
 
 * VisuAlign allows in-plane refinement of the QuickNII registration using non-linear methods. 
