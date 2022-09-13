@@ -1,6 +1,10 @@
 **QuickNII**
 --------------
 
+.. note::
+   Full QuickNII user documentation found `here <https://quicknii.readthedocs.io/en/latest/>`_.
+   Download `here <https://www.nitrc.org/projects/quicknii>`_.
+
 QuickNII is a tool for linear registration of (serial) 2D image data to 3D reference atlases of the brain. It currently supports the:
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3, 2015 and 2017.
@@ -16,5 +20,5 @@ The registration process is semi-automated:
 * DeepSlice performes automated linear registration and can replace steps 1 and 2 for coronal mouse brain sections.
 * VisuAlign performs in-plane refinement of the registration using non-linear methods. 
 
-Full QuickNII user documentation found `here <https://quicknii.readthedocs.io/en/latest/>`_. 
+
 
