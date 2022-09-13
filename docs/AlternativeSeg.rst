@@ -5,8 +5,6 @@ Any image analysis software may be used to generate the segmentations as long as
 
 .. tip::
 
-    **Software recommendations**
-
     `QuPath: <https://qupath.github.io/QuPath>`_ is an alternative that can be used to generate the segmentations. In some cases QuPath may perform better than ilastik.
 
     `FIJI ImageJ: <https://imagej.net/software/fiji/>`_ Fiji is also useful for generating segmentations. 
