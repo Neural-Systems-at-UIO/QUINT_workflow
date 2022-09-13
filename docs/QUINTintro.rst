@@ -2,7 +2,7 @@
 -----------------------
 
 .. tip::   
-   **Extract, quantify and analyse labelling**. **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
+   **Extract, quantify and analyse labelling**: **visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
 
 The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain: 
 * It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. 
