@@ -20,6 +20,7 @@ The QUINT workflow comprises a flexible suite of software designed to support at
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-gQigcGMJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
+|
 
 **What data does QUINT support?**
 -----------------------------------------
