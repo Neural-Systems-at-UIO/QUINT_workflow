@@ -2,16 +2,10 @@ QUINT workflow
 ====================
 
 .. toctree::
-   :caption: QUINT workflow
+   :caption: Introduction
    :maxdepth: 3
 
    QUINTintro
-   Technical
-   
-.. toctree::
-   :caption: Image preparation
-   :maxdepth: 3
-   
    Requirements
    
 .. toctree::
