@@ -1,6 +1,10 @@
 **Ilastik**
 -------------
 
-Ilastik enables feature extraction by segmentation based on supervised machine learning. 
+.. note::
+  Documentation for how to use ilastik in the context of QUINT found `here <https://nutil.readthedocs.io/en/latest/Ilastik.html>`_. Download `here <https://www.ilastik.org /download.html>`_. 
 
-Documentation for how to use ilastik in the context of QUINT found `here <https://nutil.readthedocs.io/en/latest/Ilastik.html>`_. 
+* Ilastik is a supervised machine learning tool for feature extraction by segmentation.
+
+
+
