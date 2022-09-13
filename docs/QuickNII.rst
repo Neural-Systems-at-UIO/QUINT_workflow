@@ -3,7 +3,7 @@
 
 QuickNII is a tool for linear registration of (serial) 2D image data to 3D reference atlases of the brain. It currently supports the:
 
-* Allen Mouse Brain Atlas, version 3, 2015 and 2017.
+* Allen Mouse Brain Atlas Common Coordinate Framework version 3, 2015 and 2017.
 * Waxholm Atlas of the Sprague Dawley Rat, version 2, 3 and 4. 
 
 The registration process is semi-automated:
