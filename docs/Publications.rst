@@ -2,34 +2,24 @@
 --------------------------
 
 * Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn PH, Demuth HU,Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA, Bjaalie JG.
-   **QUINT**: Workflow for quantification and spatial
+   QUINT: Workflow for quantification and spatial
    analysis of features in histological images from rodent brain. *Front
    Neuroinform.* 2019 Dec 3;13:75. https://doi.org/10.3389/fninf.2019.00075.
    
 * Groeneboom NE, Yates SC, Puchades MA and Bjaalie JG.
-   **Nutil**: A Pre- and Post-processing Toolbox for Histological Rodent Brain
+   Nutil: A Pre- and Post-processing Toolbox for Histological Rodent Brain
    Section Images. Front. Neuroinform. 2020,14:37. https://doi.org/10.3389/fninf.2020.00037
    
 * Puchades MA, Csucs G, Lederberger D, Leergaard TB and Bjaalie JG.
    Spatial registration of serial microscopic brain images to
-   three-dimensional reference atlases with the **QuickNII tool**. PLosONE,
+   three-dimensional reference atlases with the QuickNII tool. PLosONE,
    2019, 14(5): e0216796. https://doi.org/10.1371/journal.pone.0216796
    
 * Carey H, Pegios M, Martin L, Saleeba C, Turner A, Everett N, Puchades M, Bjaalie J, McMullan S. 
-   **DeepSlice**: rapid fully automatic registration of mouse brain imaging to a volumetric atlas. BioRxiv. https://doi.org/10.1101/2022.04.28.489953 
-   
-**How to cite the reference atlases** 
---------------------------------------
-
- **Allen Mouse Brain Atlas**: © 2004 Allen Institute for Brain Science. Allen Mouse Brain Atlas. `Available here. <http://download.alleninstitute.org/informatics-archive/current-release/mouse_ccf/annotation/>`_
-
-* **Waxholm Space atlas of the Sprague Dawley rat brain version 2 , 3 and 4**: RRID: SCR_017124; Papp et al., NeuroImage 97, 374-386, 2014; Papp et al., NeuroImage 105, 561–562, 2015; Kjonigsen et al., NeuroImage 108, 441-449, 2015; Osen et al., NeuroImage 199, 38-56, 2019; Kleven et al., in preparation. 
-
-For reuse of the Waxholm Space atlas of the Sprague Dawley rat brain, see the `citation policy. <https://www.nitrc.org/citation/?group_id=1081>`_
-
+   DeepSlice: rapid fully automatic registration of mouse brain imaging to a volumetric atlas. BioRxiv. https://doi.org/10.1101/2022.04.28.489953 
 
 **Related publications**
---------------------------
+
 
 * Ham GX, Augustine GJ. 
    Topologically Organized Networks in the Claustrum Reflect Functional Modularization. Frontiers in Neuroanatomy. 16 June 2022. 
