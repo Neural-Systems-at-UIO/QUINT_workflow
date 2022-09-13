@@ -6,5 +6,5 @@
 * This step is optional, but can be used to adjust for distortions as well as anatomical differences between brains.
 
 .. note::
-Full VisuAlign user documentation found `here <https://visualign.readthedocs.io/en/latest/>`_. 
-VisuaAlign Download `here <https://www.nitrc.org/projects/visualign>`_
+   Full VisuAlign user documentation found `here <https://visualign.readthedocs.io/en/latest/>`_. 
+   VisuaAlign Download `here <https://www.nitrc.org/projects/visualign>`_
