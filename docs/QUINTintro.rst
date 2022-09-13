@@ -1,5 +1,5 @@
 **What is QUINT?**
------------------------
+==================
 
 .. tip::   
    **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
