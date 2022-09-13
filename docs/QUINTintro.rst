@@ -25,14 +25,14 @@ The QUINT workflow comprises a flexible suite of software designed to support at
 **What data does QUINT support?**
 ----------------------------------
 
-QUINT supports all types of histological sections from mouse and rat brain that have been labelled to reveal features:
+QUINT supports histological sections from mouse and rat brain that have been labelled to reveal features:
 
 * Cell count analysis
 * Analyse pathology
 * Analyse tract tracing connections
-* Sections cut at any angle of orientation
-* Partial brain sections
-* Distorted brain sections
+
+It works for sections cut at any angle of orientation, for complete as well as partial brain sections, and for sections affected by distortion.  
+
 
 
 
