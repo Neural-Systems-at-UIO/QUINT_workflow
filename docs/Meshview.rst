@@ -1,7 +1,9 @@
 **Meshview Atlas Viewer**
 -----------------------------
 
-Find user documentation `here <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_
+.. note::
+
+   Find user documentation `here <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_
 
 `WHS version 2 <https://meshview.apps.hbp.eu/?atlas=WHS_SD_Rat_v2_39um>`_
 
