@@ -1,11 +1,11 @@
 **Preparing the images**
 ==========================
 
-All the software in the QUINT workflow have image input requirements:
+All the software in the QUINT workflow have input requirements for the images:
 
 * The file naming convention applies to all the software.
 * The image size requirements differ for the QuickNII and ilastik software. Generate two separate series that comply with the respective requirements.
-* The Nutil software can be used to prepare the images for QuickNII and ilastik since it supports image transformations, renaming of files and file format conversion. 
+* The Nutil software can be used to prepare the images since it supports image transformations, renaming of files and file format conversion. Alternative software such as FIJI or Adobe Photoshop can also be used. 
 
 **QUINT naming convention**
 -------------------------------
