@@ -14,9 +14,9 @@ All the software in the QUINT workflow have input requirements for the images:
 -------------------------------
 
 * Add a unique ID to each image that reflects the serial order and spacing of the sections. 
-* The format is: _sXXX..., with XXX.. representing the section number (not restricted to three digits). 
+* The format is: _sXXX with XXX representing the section number (not restricted to three digits). 
 
-For example, for three consecutive sections: tg2345_MMSH_s0001.png, tg2345_MMSH_s0002.png, tg2345_MMSH_s0003.png 
+For example, for consecutive sections: _s0001, _s0002, _s0003
 
 .. image:: images/NamingConvention.PNG
 
