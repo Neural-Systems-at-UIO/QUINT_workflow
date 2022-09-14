@@ -10,7 +10,7 @@ The QUINT workflow comprises a flexible suite of software designed to support at
 * It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. 
 
 
-.. image:: images/QUINT.PNG
+.. image:: images/QUINT.png
 
 
 * **QuickNII, VisuAlign and DeepSlice** enable registration of the images to a reference atlas such as the Allen Mouse Brain Atlas or the Waxholm Atlas of the Sprague Dawley rat. Linear registration is first performed using QuickNII, then VisuAlign allows refinement of the registration using non-linear methods. For coronal mouse brain sections, DeepSlice can automate the linear registration step.  
