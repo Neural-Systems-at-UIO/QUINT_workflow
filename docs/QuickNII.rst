@@ -4,7 +4,7 @@
 .. note::
    Find full user documentation `here <https://quicknii.readthedocs.io/en/latest/>`_.
    Download `here <https://www.nitrc.org/projects/quicknii>`_.
-   QuickNII RRID:SCR_016854.
+   RRID:SCR_016854.
 
 QuickNII is a tool for linear registration of (serial) 2D image data to 3D reference atlases of the brain. It currently supports the:
 
