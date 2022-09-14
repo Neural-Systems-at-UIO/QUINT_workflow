@@ -18,8 +18,6 @@ The registration process is semi-automated:
 3. Finally, the registration is manually validated by the user for each section. This may involve making fine adjustments to the registration such as in-plane transformations, rotations, or small adjustments to the positions.
 4. The results are exported in machine-readable formats such as JSON, XML and FLAT files. 
 
-* DeepSlice performes automated linear registration and can replace steps 1 and 2 for coronal mouse brain sections.
-* VisuAlign performs in-plane refinement of the registration using non-linear methods. 
 
 
 
