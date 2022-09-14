@@ -6,7 +6,6 @@
 
 The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. All the software are GUI-based, with no coding ability required. It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D. 
 
-|
 QUINT involves several defined steps: 
 
 .. image:: images/QUINT.png
@@ -35,7 +34,7 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 * To spatially characterise pathology
 * Analyse tract tracing connections
 
-Check out the following articles for examples of use:
+Check out the following articles that have used QUINT:
 
 * Ham GX, Augustine GJ. Topologically Organized Networks in the Claustrum Reflect Functional Modularization. Frontiers in Neuroanatomy. 16 June 2022. https://doi.org/10.3389/fnana.2022.901807 
 
