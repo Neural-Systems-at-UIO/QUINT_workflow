@@ -28,10 +28,10 @@ The QUINT workflow comprises a flexible suite of software designed to support at
 QUINT supports histological sections from mouse and rat brain that have been labelled to reveal features. It works for sections cut at any angle of orientation, for complete as well as partial brain sections, and for sections affected by distortion. It can be used for:
 
 * Cell count analysis
-* to spatially characterise pathology
+* To spatially characterise pathology
 * Analyse tract tracing connections
 
-Check out the following articles for examples of use.
+Check out the following articles for examples of use:
 
 * Ham GX, Augustine GJ. Topologically Organized Networks in the Claustrum Reflect Functional Modularization. Frontiers in Neuroanatomy. 16 June 2022. https://doi.org/10.3389/fnana.2022.901807 
 
