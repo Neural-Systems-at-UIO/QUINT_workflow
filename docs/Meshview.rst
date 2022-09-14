@@ -5,7 +5,7 @@
 
    Find user documentation `here <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_.
    
-Meshview is a web-based 3D atlas viewer for visualising point clouds generated with QUINT. It can be used to visualise the point clouds generated with the QUINT workflow. 
+Meshview is a web-based 3D atlas viewer for visualising the point clouds generated with QUINT. 
 
 `WHS version 2 <https://meshview.apps.hbp.eu/?atlas=WHS_SD_Rat_v2_39um>`_
 
