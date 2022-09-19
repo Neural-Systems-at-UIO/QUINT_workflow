@@ -28,7 +28,7 @@ ilastik supports many `file formats. <https://www.ilastik.org/documentation/basi
 **Segmentation with ilastik**
 ------------------------------
 
-There are two main approaches for the segmentation of brain section images with ilastik.
+There are two main approaches for segmentation with ilastik.
 
 1. Pixel classification only (with two or more classes)
 2. Pixel classification with two classes (*immunoreactivity* and *background*), followed by object classification with two classes (*objects* *e.g. cells* and
@@ -38,11 +38,11 @@ There are two main approaches for the segmentation of brain section images with 
 
 The best approach depends on the appearance of the labelling in the images and is determine by trial and error.
 
-1. The first approach is quick and easy, and is the method of choice as long as it produces satisfactory output. It is suited for images in which there are clear differences in the colour, intensity and / or texture of the features of interest (e.g. cells) relative to the background and other structures. For example:
+1. The first approach is quick and easy, and is the method of choice as long as it produces satisfactory output. It is best for images where there are clear differences in the colour, intensity and / or texture of the features-of-interest (e.g. cells) relative to the background and other structures. For example:
 
 |image5|
 
-2. The second approach is more time consuming, but may give a better output if there is non-specific labelling in the image that is similar in appearance to the labelling-of-interest. This is because the object classification workflow can filter out non-specific labelling based on object level features such as size and shape. A classical example is cells and edge staining of similar colour and intensity that are both extracted by pixel classification, but have different object shapes and so are easy to differentiate with object classification (round cells versus long and thin edge staining). For example: 
+2. The second approach is more time consuming, but may give a better result if there is non-specific labelling in the image with a similar appearance to the labelling-of-interest. This is because the Object Classification Workflow can filter out non-specific labelling based on object level features such as size and shape. An example is cells and edge staining of similar colour and intensity, that are both extracted by Pixel Classification, but have different object shapes and so are easy to differentiate with Object Classification (round cells versus long and thin edge staining). For example: 
 
 |image6|
 
@@ -225,25 +225,7 @@ The file type to export will depend on the plan for the next step of analysis.
 * While ilastik has the computational power to process very large images, the viewer in the ilastik user interface is not able to process whole images that are very large in the “live” mode. For large images in the training phase, it is therefore important to remain zoomed-in in the viewer when the live update is switched on. This is especially true if many classes are labelled and many features selected.  As a general rule of thumb, keep the portion of the image that is visible in the viewer to below 3000 x 3000 pixels.  The absolute value will depend on the number of classes and features selected.
 * For very large images, be more selective with the features for classification, and label as few classes as possible.  
 * If all else fails, it is possible to split large images into tiles and process tiles individually. These have to be stitched before continuing with the QUINT workflow. 
-* Note that exportation of the segmented images will take time.  One large image (e.g. 30,000 x 30,000 pixels) may take 2 hours to export.  Image analysis can be run overnight in the batch mode.            
-
-
-**Technical information**
---------------------------
-
-This manual was written by the Neural Systems Laboratory at the University of Oslo, Norway, for the use of ilastik for the QUINT workflow, and includes tips and tricks from the ilastik team. Some of this information may be out of date. 
-
-For the latest updates and user documentation see: https://www.ilastik.org/ 
-
-**How to cite**
-
-**ilastik: interactive machine learning for (bio)image analysis**
- 
-Stuart Berg, Dominik Kutra, Thorben Kroeger, Christoph N. Straehle, Bernhard X. Kausler, Carsten Haubold, Martin Schiegg, Janez Ales, Thorsten Beier, Markus Rudy, Kemal Eren, Jaime I Cervantes, Buote Xu, Fynn Beuttenmueller, Adrian Wolny, Chong Zhang, Ullrich Koethe, Fred A. Hamprecht & Anna Kreshuk in: Nature Methods, (2019)
-     
-**QUINT workflow**
-     
-Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn P-H, Demuth H-U, Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA and Bjaalie JG (2019) QUINT: Workflow for Quantification and Spatial Analysis of Features in Histological Images From Rodent Brain. Front. Neuroinform. 13:75. doi: 10.3389/fninf.2019.00075.
+* Note that exportation of the segmented images will take time.  One large image (e.g. 30,000 x 30,000 pixels) may take 2 hours to export.  Image analysis can be run overnight in the batch mode.
 
 
 
