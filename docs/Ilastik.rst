@@ -58,25 +58,25 @@ For a quick introduction, watch:
 
 1. Open the *ilastik* programme. Under ‘Create New Project’ select ‘Pixel Classification’. Save the project under a new file name in the same location as the images for analysis (create a new folder). 
 
-   .. image:: 2e9537b09637491fa83410e3e364d5c5/media/image3.png
+   .. image:: images_ilastik/image3.png
       :width: 3.34444in
       :height: 2.2491in
 
 2. On the left hand side of the screen there are five input applets.
 
-   .. image:: 2e9537b09637491fa83410e3e364d5c5/media/image4.png
+   .. image:: images_ilastik/image4.png
       :width: 2.76667in
       :height: 1.59511in
 
 In the **Input data** applet, select ‘Add New’.  Add one or more images for the purpose of training the classifier (training images). Convert the format of the images to HDF5 to increase the processing speed.  To do this, highlight the uploaded images, select ‘storage’ and change from ‘relative link’ to ‘copied to project file’.  Save the project.
 
-   .. image:: 2e9537b09637491fa83410e3e364d5c5/media/image5.png
+   .. image:: images_ilastik/image5.png
       :width: 4.07083in
       :height: 1.07782in
 
 3. Select the **Feature Selection** applet and click ‘Select Features’.
 
-   .. image:: 2e9537b09637491fa83410e3e364d5c5/media/image6.png
+   .. image:: images_ilastik/image6.png
       :width: 6.16667in
       :height: 1.23194in
 
@@ -139,7 +139,7 @@ The 8-bit PNG output of ilastik (Simple_Segmentations and Object_Predictions) ar
 
 In some cases you may wish to alter the applied colours. To do this, select Image > Color > Edit LUT. The LUT applies colours from the top left hand corner (first colour is not used). Click on each colour to alter it. Then Save the customised LUT and save the image in PNG format. 
 
-.. image:: 2e9537b09637491fa83410e3e364d5c5/media/image9.png
+.. image:: images_ilastik/image9.png
    :width: 2.25in
    :height: 2.43956in
 
@@ -161,7 +161,7 @@ customized LUT as a .LUT file. Apply to a whole folder of images with the Batch 
 .. note::
    Make sure to update the directory so it locates the customized.lut file, and ensure the macro is written with double back slashes.
 
-   .. image:: 2e9537b09637491fa83410e3e364d5c5/media/image11.png
+   .. image:: images_ilastik/image11.png
       :width: 4.39583in
       :height: 1.85088in
 
@@ -229,31 +229,31 @@ The file type to export will depend on the plan for the next step of analysis.
 
 
 
-.. |image1| image:: 2e9537b09637491fa83410e3e364d5c5/media/image1.png
+.. |image1| image:: images_ilastik/image1.png
    :width: 1.36389in
    :height: 1.24908in
-.. |image2| image:: 2e9537b09637491fa83410e3e364d5c5/media/image2.png
+.. |image2| image:: images_ilastik/image2.png
    :width: 1.41389in
    :height: 1.30285in
-.. |image3| image:: 2e9537b09637491fa83410e3e364d5c5/media/image1.png
+.. |image3| image:: images_ilastik/image1.png
    :width: 1.36389in
    :height: 1.24908in
-.. |image4| image:: 2e9537b09637491fa83410e3e364d5c5/media/image2.png
+.. |image4| image:: images_ilastik/image2.png
    :width: 1.41389in
    :height: 1.30285in
-.. |image5| image:: 2e9537b09637491fa83410e3e364d5c5/media/image1.png
+.. |image5| image:: images_ilastik/image1.png
    :width: 1.36389in
    :height: 1.24908in
-.. |image6| image:: 2e9537b09637491fa83410e3e364d5c5/media/image2.png
+.. |image6| image:: images_ilastik/image2.png
    :width: 1.41389in
    :height: 1.30285in
-.. |image7| image:: 2e9537b09637491fa83410e3e364d5c5/media/image7.png
+.. |image7| image:: images_ilastik/image7.png
    :width: 2.58889in
    :height: 1.95183in
-.. |image8| image:: 2e9537b09637491fa83410e3e364d5c5/media/image8.png
+.. |image8| image:: images_ilastik/image8.png
    :width: 2.55139in
    :height: 1.90604in
-.. |image9| image:: 2e9537b09637491fa83410e3e364d5c5/media/image10.png
+.. |image9| image:: images_ilastik/image10.png
    :width: 4.15556in
    :height: 2.07041in
 
