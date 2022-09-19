@@ -1,12 +1,22 @@
-**Ilastik**
-=============
+**ilastik**
+===========
 
-.. note::
-  Find documentation for how to use ilastik in the context of QUINT `here <https://nutil.readthedocs.io/en/latest/Ilastik.html>`_. Download `here <https://www.ilastik.org /download.html>`_. 
+**Introduction**
+-----------------
 
-* Ilastik is a supervised machine learning tool for feature extraction by segmentation.
-* The segmentations from ilastik are not directly compatible with Nutil but must be converted to RGB format with a tool such as FIJI. This allows a visual validation step prior to quantification. Instructions for how to do this are found in the user documentation.   
-* The manual was written by the Nesys group at the University of Oslo with input from the ilastik team to describe the use of ilastik for the QUINT workflow only.
+* This manual was written by the Nesys group at the University of Oslo with input from the ilastik team to describe the use of `ilastik <http://ilastik.org/>`_ for the QUINT workflow only.
+
+* *ilastik* is a versatile image analysis tool designed for the batch classification, segmentation and analysis of biological images based on supervised machine learning algorithms.
+
+* *ilastik* has many additional functions and workflows that are not mentioned in this manual.
+
+
+**Installation and Usage**
+--------------------------
+
+* The ilastik program can be `downloaded here. <http://ilastik.org/download.html>`_
+
+* See the ilastik website for the most up-to-date information.
 
 |
 **Preparing the images for ilastik**
@@ -279,4 +289,3 @@ Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn P-H, Demuth H-U, Hartl
 .. |image9| image:: 2e9537b09637491fa83410e3e364d5c5/media/image10.png
    :width: 4.15556in
    :height: 2.07041in
-
