@@ -2,32 +2,27 @@
 =============
 
 .. note::
-  Find documentation for how to use ilastik in the context of QUINT `here <https://nutil.readthedocs.io/en/latest/Ilastik.html>`_. Download `here <https://www.ilastik.org /download.html>`_. 
+  These instructions were written by the Nesys group at the University of Oslo with input from the ilastik team to describe the use of ilastik for the QUINT workflow only. Download `here <https://www.ilastik.org /download.html>`_. 
 
 * Ilastik is a supervised machine learning tool for feature extraction by segmentation.
-* The segmentations from ilastik are not directly compatible with Nutil but must be converted to RGB format with a tool such as FIJI. This allows a visual validation step prior to quantification. Instructions for how to do this are found in the user documentation.   
-* The manual was written by the Nesys group at the University of Oslo with input from the ilastik team to describe the use of ilastik for the QUINT workflow only.
+* The segmentations from ilastik are not directly compatible with Nutil but must be converted to RGB format with a tool such as FIJI. This allows a visual validation step prior to quantification. Instructions for how to do this are found in the user documentation.
 
 |
-**Preparing the images for ilastik**
+**Preparing images for ilastik**
 ---------------------------------
 
 **Image size**
 
-As a general rule the histological images should be downscaled before segmenting with ilastik. This improves the output quality and speeds up the analysis. 
+As a general rule, the histological images should be downscaled before segmenting with ilastik. This improves the output quality and speeds up the analysis. 
 
-The optimal resize factor will depend on the original size of the images and the size of the features to be extracted, and is determined by trial and error. The Pixel Classification algorithm extracts image pixels based on their colour, intensity and / or texture on a scale up to 10 sigma. This means that the algorithm recognises edges or objects that fall within a 10 x 10 pixel window. For the best result, resize the images so that the objects (e.g. cells) fall well within this window, but without loss of important information (e.g. small cells).  A resize factor of 0.2 or 0.1 may be a good starting point. 
+The resize factor will depend on the original size of the images and the size of the features to be extracted, and is determined by trial and error. The Pixel Classification algorithm extracts image pixels based on their colour, intensity and / or texture on a scale up to 10 sigma. This means that the algorithm recognises edges or objects that fall within a 10 x 10 pixel window. For the best result, resize the images so that the objects (e.g. cells) fall within this window, but without loss of important information (e.g. small cells).  A resize factor of 0.2 or 0.1 may be a good starting point. 
 
 **File format**
 
 ilastik supports many `file formats. <https://www.ilastik.org/documentation/basics/dataselection>`_ PNG works well. It does not support tiled TIFFs.
 
-**Software Recommendations**
-
-Nutil enables image resizing, renaming and file format conversion and is specifically designed for histological images from mouse and rat. 
-
- * the Resize feature enables conversion of PNG or JPEG images to PNG format. 
- * the Transform feature is designed to transform tiled TIFF images with output in tiled TIFF format, but also has the option to generate thumbnails in PNG format. To generate images for ilastik only, switch on the “only create thumbnails” feature under the advanced settings and enter the desired resize factor. Transform also enables rotation of images and file renaming to comply with the QUINT naming convention.  
+.. tip::
+   Nutil supports resizing of images, renaming and file format conversion and is specifically designed for histological images from mouse and rat. 
  
 |
 **Segmentation with ilastik**
