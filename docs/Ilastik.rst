@@ -2,10 +2,10 @@
 =============
 
 .. note::
-  These instructions were written by the Nesys group at the University of Oslo with input from the ilastik team to describe the use of ilastik for the QUINT workflow only. Download `here <https://www.ilastik.org /download.html>`_. 
+  These instructions were written by the Nesys group to describe the use of ilastik for the QUINT workflow. Find the latest instructions and download `here <https://www.ilastik.org /download.html>`_. 
 
 * Ilastik is a supervised machine learning tool for feature extraction by segmentation.
-* The segmentations from ilastik are not directly compatible with Nutil but must be converted to RGB format with a tool such as FIJI. This allows a visual validation step prior to quantification. Instructions for how to do this are found in the user documentation.
+* The segmentations from ilastik are not directly compatible with Nutil but must be converted to RGB format with a tool such as FIJI. This allows a visual validation step prior to quantification. Instructions for how to do this are found below.
 
 |
 **Preparing images for ilastik**
