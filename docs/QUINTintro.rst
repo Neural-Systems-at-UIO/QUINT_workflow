@@ -4,15 +4,18 @@
 .. tip::   
    **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
 
-The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain: 
+The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. All the software are GUI-based, with no coding ability required. It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D. 
 
-* All the software are GUI-based, no coding ability required.
-* It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. 
-* **QuickNII, VisuAlign and DeepSlice** enable registration of the images to a reference atlas such as the Allen Mouse Brain Atlas or the Waxholm Atlas of the Sprague Dawley rat. Linear registration is first performed using QuickNII, then VisuAlign allows refinement of the registration using non-linear methods. For coronal mouse brain sections, DeepSlice can automate the linear registration step.  
-* **Ilastik** enables feature extraction based on supervised machine-learning. 
-* **Nutil** supports pre-processing of the images as well as the final quantification step.
-* **QCAlign** enables quality control of the section images, as well as quality control of the atlas-registration. It also supplies functionality for exploring the reference atlas hierarchy and creating a customized level for the final quantification.
-* **Meshview** is a brain atlas viewer for visualising the point clouds in 3D. 
+QUINT involves several defined steps: 
+
+.. image:: images/QUINT.png
+ 
+1. **Image preparation** using Nutil or another image analysis tool.
+2. **Atlas-registration** with QuickNII, VisuAlign and/or DeepSlice. They support registration of the images to a reference atlas such as the Allen Mouse Brain Atlas or the Waxholm Atlas of the Sprague Dawley rat. Linear registration is performed using QuickNII, then VisuAlign allows refinement of the registration using non-linear methods. For coronal mouse brain sections, DeepSlice can automate the linear registration step.  
+3. **Feature extraction** using Ilastik or another image analysis tool. 
+4. **Quantification** with Nutil.
+5. **Quality Control** with QCAlign. This is optional and supports quality control of the section images, as well as quality control of the atlas-registration. It also enables exploration of the atlas hierarchy and creation of a customized level for the quantification.
+6. **Visualisation** with the 3D Meshview Atlas Viewer.
 
 **Watch our video tutorial**
 
@@ -31,7 +34,7 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 * To spatially characterise pathology
 * Analyse tract tracing connections
 
-Check out the following articles for examples of use:
+Check out the following articles that have used QUINT:
 
 * Ham GX, Augustine GJ. Topologically Organized Networks in the Claustrum Reflect Functional Modularization. Frontiers in Neuroanatomy. 16 June 2022. https://doi.org/10.3389/fnana.2022.901807 
 
