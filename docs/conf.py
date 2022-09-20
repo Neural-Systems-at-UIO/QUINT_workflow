@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'QUINT workflow'
-copyright = '20212 NeSys'
-author = 'NeSys'
+copyright = 'Nesys'
+author = 'Nesys'
 
 
 # -- General configuration ---------------------------------------------------
