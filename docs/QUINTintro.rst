@@ -4,7 +4,7 @@
 .. tip::   
    **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
 
-The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. All the software are GUI-based, with no coding ability required. It generates counts and % coverage per atlas-region, in addition to point clouds for visualising the features in 3D. 
+The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. All the software are GUI-based, with no coding ability required. It generates counts and percentage coverage per atlas-region, in addition to point clouds for visualising the features in 3D. 
 
 QUINT involves several defined steps: 
 
