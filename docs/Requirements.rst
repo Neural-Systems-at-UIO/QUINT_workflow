@@ -19,5 +19,6 @@ For example, for consecutive sections: _s0001, _s0002, _s0003
 
 .. image:: images/NamingConvention.PNG
 
-
+.. tip::
+   It is possible to bypass the file naming convention in Nutil as long as there is a consistent naming convention across the files. In this case, the naming convention must be defined in Nutil with Regular Expressions. For more information see the “Help” button in the Nutil GUI or contact user support.
 
