@@ -2,12 +2,13 @@
 =============
 
 .. note::
-  These instructions were written by the Nesys group to describe the use of ilastik for the QUINT workflow. Find the latest instructions and download `here <https://www.ilastik.org /download.html>`_. 
+
+  Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the Nutil software, listed `here <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.
   
-  Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the Nutil software listed `here <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.   
+  These instructions describe the use of ilastik for the QUINT workflow. Find the latest instructions and download `here <https://www.ilastik.org /download.html>`_. 
 
 * Ilastik is a supervised machine learning tool for feature extraction by segmentation.
-* The segmentations from ilastik are 8-bit PNG images that appear black. To visualise the segmentation, apply the Glasbey lookup table to the images with a tool such as FIJI. This applies constrasting RGB colours to the different classes, which allows a visual validation step prior to quantification. Instructions for how to do this are found below.
+* The segmentations from ilastik are 8-bit PNG images that appear black. To visualise the segmentation, apply the Glasbey lookup table to the images with a tool such as FIJI. This applies constrasting RGB colours to the different classes, which allows a visual validation step prior to quantification with Nutil. Instructions for how to do this are found below.
 
 .. image:: images_ilastik/Segmentation.PNG
 
