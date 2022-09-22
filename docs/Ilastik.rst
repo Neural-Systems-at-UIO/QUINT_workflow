@@ -7,9 +7,9 @@
 * Ilastik is a supervised machine learning tool for feature extraction by segmentation.
 * The segmentations from ilastik are 8-bit PNG images that appear black. To visualise the segmentation, apply the Glasbey lookup table to the images with a tool such as FIJI. This applies constrasting RGB colours to the different classes, which allows a visual validation step prior to quantification. Instructions for how to do this are found below.
 
-   .. image:: images_ilastik/segmentations.PNG
-      :width: 
-      :align: center
+.. image:: images_ilastik/segmentations.PNG
+   :width: 
+   :align: center
 
 |
 **Preparing images for ilastik**
@@ -62,7 +62,7 @@ For a quick introduction, watch:
 
 1. Open the *ilastik* programme. Under ‘Create New Project’ select ‘Pixel Classification’. Save the project under a new file name in the same location as the images for analysis (create a new folder). 
 
-   .. image:: images_ilastik/image3.png
+    .. image:: images_ilastik/image3.png
       :width: 300
       :align: center
 
