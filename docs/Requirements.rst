@@ -4,7 +4,7 @@
 All the software in the QUINT workflow have file input requirements:
 
 * The file naming convention applies to all the software. It is recommended to change the file names as the first step in the QUINT workflow. This ensures that the files are compatible with QuickNII and VisuAlign, and that the output files of QuickNII, VisuAlign and ilastik are directly compatible with Nutil. 
-* As the image size requirements for `QuickNII <https://quicknii.readthedocs.io/en/latest/imageprepro.html>`_ and `Ilastik <https://nutil.readthedocs.io/en/latest/Ilastik.html#preparing-the-images-for-ilastik>`_ differ, it is recommended to generate two separate series that comply with their respective requirements. 
+* As the image size requirements for `QuickNII <https://quicknii.readthedocs.io/en/latest/imageprepro.html>`_ and `Ilastik <https://quint-workflow.readthedocs.io/en/latest/Ilastik.html#preparing-images-for-ilastik>`_ differ, it is recommended to generate two separate series that comply with their respective requirements. 
 
 .. tip::
    The Nutil software can be used to prepare the images since it supports image transformations (downscaling, rotation, mirroring), renaming of files and file format conversion. Alternative software such as FIJI or Adobe Photoshop can also be used.
