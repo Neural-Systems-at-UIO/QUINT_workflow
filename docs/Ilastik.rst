@@ -59,26 +59,29 @@ For a quick introduction, watch:
 1. Open the *ilastik* programme. Under ‘Create New Project’ select ‘Pixel Classification’. Save the project under a new file name in the same location as the images for analysis (create a new folder). 
 
    .. image:: images_ilastik/image3.png
-      :width: 3.34444in
-      :height: 2.2491in
+      :width: 400
+      :align: center
 
 2. On the left hand side of the screen there are five input applets.
 
    .. image:: images_ilastik/image4.png
       :width: 2.76667in
       :height: 1.59511in
+      :align: center
 
 In the **Input data** applet, select ‘Add New’.  Add one or more images for the purpose of training the classifier (training images). Convert the format of the images to HDF5 to increase the processing speed.  To do this, highlight the uploaded images, select ‘storage’ and change from ‘relative link’ to ‘copied to project file’.  Save the project.
 
    .. image:: images_ilastik/image5.png
       :width: 4.07083in
       :height: 1.07782in
+      :align: center
 
 3. Select the **Feature Selection** applet and click ‘Select Features’.
 
    .. image:: images_ilastik/image6.png
       :width: 6.16667in
       :height: 1.23194in
+      :align: center
 
 Select the features and scales that can be used to discern the objects or classes of interest:  for most datasets, all the features should be selected. See FAQ for advice on selecting good features.
 
