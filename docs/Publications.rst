@@ -1,4 +1,4 @@
-**Cite the tools**
+**Cite us**
 ===================
 
 **QUINT**
