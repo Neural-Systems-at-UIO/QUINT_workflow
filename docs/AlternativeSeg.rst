@@ -1,7 +1,7 @@
 **Alternative tools**
 -----------------------
 
-Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the Nutil software listed `here <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.  
+Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the *Nutil* software listed `here <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.  
 
 .. tip::
 
