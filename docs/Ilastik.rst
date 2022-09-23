@@ -3,13 +3,13 @@
 
 .. note::
 
-  Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the Nutil software, listed `here <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.
+  Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the *Nutil* software, listed `here <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.
   
-  These instructions describe the use of ilastik for the QUINT workflow. Find the latest ilastik instructions and download `here <https://www.ilastik.org /download.html>`_. 
+  These instructions describe the use of *ilastik* for the QUINT workflow. Find the latest ilastik instructions and download `here <https://www.ilastik.org /download.html>`_. 
 
-* Ilastik is a supervised machine learning tool for feature extraction by segmentation.
-* The segmentations from ilastik are 8-bit PNG images that appear black. They should not be used directly in Nutil. 
-* To make them compatible with Nutil, apply the Glasbey lookup table with a tool such as FIJI. This applies constrasting RGB colours to the different classes, which allows a visual validation step prior to quantification. 
+* *Ilastik* is a supervised machine learning tool for feature extraction by segmentation.
+* The segmentations from *ilastik* are 8-bit PNG images that appear black. They should not be used directly in *Nutil*. 
+* To make them compatible with *Nutil*, apply the Glasbey lookup table with a tool such as *FIJI*. This applies constrasting RGB colours to the different classes, which visualises the labels, allowing a validation step prior to quantification. 
 * Instructions for how to do this are found below.
 
 .. image:: images_ilastik/Segmentation.PNG
@@ -21,9 +21,9 @@
 
 1. **Image size**
 
-As a general rule, the histological images should be downscaled before segmenting with ilastik. This improves the output quality and speeds up the analysis. 
+As a general rule, the histological images should be downscaled before segmenting with *ilastik*. This improves the output quality and speeds up the analysis. 
 
-The resize factor will depend on the original size of the images and the size of the features to be extracted, and is determined by trial and error. The Pixel Classification algorithm extracts image pixels based on their colour, intensity and / or texture on a scale up to 10 sigma. This means that the algorithm recognises edges or objects that fall within a 10 x 10 pixel window. For the best result, resize the images so that the objects (e.g. cells) fall within this window, but without loss of important information (e.g. small cells).  A resize factor of 0.2 or 0.1 may be a good starting point. 
+The resize factor will depend on the original size of the images and the size of the features to be extracted. It is determined by trial and error. The Pixel Classification algorithm extracts image pixels based on their colour, intensity and / or texture on a scale up to 10 sigma. This means that the algorithm recognises edges or objects that fall within a 10 x 10 pixel window. For the best result, resize the images so that the objects (for example, cells) fall within this window, but without loss of important information (for example, smaller cells).  A resize factor of 0.2 or 0.1 is a good starting point. 
 
 2. **File format**
 
@@ -36,7 +36,7 @@ Ilastik supports many `file formats. <https://www.ilastik.org/documentation/basi
 **Segmentation with ilastik**
 ------------------------------
 
-There are two main approaches for segmentation with ilastik.
+There are two main approaches for segmentation with *ilastik*.
 
 1. Pixel classification only (with two or more classes)
 2. Pixel classification with two classes (*immunoreactivity* and *background*), followed by object classification with two classes (*objects* *e.g. cells* and
@@ -46,11 +46,11 @@ There are two main approaches for segmentation with ilastik.
 
 The best approach depends on the appearance of the labelling in the images and is determine by trial and error.
 
-1. The first approach is quick and easy, and is the method of choice as long as it produces satisfactory output. It is best for images where there are clear differences in the colour, intensity and / or texture of the features-of-interest (e.g. cells) relative to the background and other structures. For example:
+1. The first approach is quick and easy, and is the method of choice as long as it gives satisfactory output. It is best for images where there are clear differences in the colour, intensity and / or texture of the features (for example, labelled cells) relative to the background and other structures. For example:
 
 |image5|
 
-2. The second approach is more time consuming, but may give a better result if there is non-specific labelling in the image with a similar appearance to the labelling-of-interest. This is because the Object Classification Workflow can filter out non-specific labelling based on object level features such as size and shape. An example is cells and edge staining of similar colour and intensity, that are both extracted by Pixel Classification, but have different object shapes and so are easy to differentiate with Object Classification (round cells versus long and thin edge staining). For example: 
+2. The second approach is more time consuming, but may give better results if there is non-specific labelling that has a similar appearance to the labelling-of-interest. This is because the Object Classification Workflow can filter out non-specific labelling based on object level features such as size and shape. An example is cells and edge staining of similar colour and intensity, that are both extracted by Pixel Classification, but have different object shapes and so are easy to differentiate with Object Classification ("round" cells versus "long and thin" edge staining). For example: 
 
 |image6|
 
@@ -112,7 +112,7 @@ Select the features and scales that can be used to discern the objects or classe
 **2. Object Classification Workflow**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1.	There are three options on the ilastik start up page for running Object Classification.  Choose the Object Classification with Raw Data and Pixel Prediction Maps as input.  It is not advisable to use Pixel Classification + Object Classification. This file type is easily corrupted.
+1.	There are three options on the *ilastik* start up page for running Object Classification.  Choose the Object Classification with Raw Data and Pixel Prediction Maps as input.  It is not advisable to use Pixel Classification + Object Classification. This file type is easily corrupted.
 
 2.	Save the object classification file in the same folder as the raw images for analysis.  If the images are moved after the ilastik file is created, the link between the ilastik file and the images may be lost, resulting in a corrupted file.
 
@@ -136,13 +136,14 @@ Select the features and scales that can be used to discern the objects or classe
 **3. Applying the Glasbey Lookup table**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The 8-bit PNG output of ilastik (Simple_Segmentations and Object_Predictions) are always black or white in appearance. To visualise the results, and make them compatible with Nutil Quantifier, apply the Glasbey lookup table (LUT) to the images with NIH ImageJ or Fiji.  
+The 8-bit PNG output from ilastik are black or white in appearance. This is because similar shades of black or white are assigned to the classes. To visualise the results, and make them more compatible with Nutil, apply the Glasbey lookup table (LUT) with *NIH ImageJ / FIJI*.  
 
 |image8|
 
-1.	Download the NIH ImageJ tool.
-2.	Open the image in ImageJ. The image appears black (or white). 
-3.	Apply the Glasbey lookup table by selecting Image > Lookup Tables > Glasbey.  This assigns a different colour to each label. Save the image in PNG format. They are now compatible with Nutil Quantifier. 
+1.	Download the *NIH ImageJ / FIJI* tool.
+2.	Open the image: it appears black (or white). 
+3.	Apply the Glasbey LUT by selecting Image > Lookup Tables > Glasbey.  This assigns a different colour to each label. 
+4. Save the image in PNG format. They are now compatible with *Nutil* Quantifier. 
 
 
 **Customise the LUT**
