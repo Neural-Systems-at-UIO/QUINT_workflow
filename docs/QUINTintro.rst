@@ -7,7 +7,7 @@
 The QUINT workflow comprises a flexible suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. All the software are GUI-based, with no coding ability required. It generates counts and percentage coverage per atlas-region, in addition to point clouds for visualising the features in 3D. It currently supports quantification relative to the following atlases:
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2015 and 2017) (CCFv3)
-* Waxholm Atlas of the Sprague Dawley rat, version 2, 3 and 4. 
+* Waxholm Atlas of the Sprague Dawley rat, version 2, 3 and 4 (WHS rat brain atlas). 
 
 QUINT involves several defined steps: 
 
