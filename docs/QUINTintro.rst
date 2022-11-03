@@ -43,7 +43,7 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 * Jo Y, Lee SM, Jung T, Park G, Lee C, Im GH, Lee S, Park JS, Oh C, Kook G, Kim H, Kim S, Lee BC, Suh GSB, Kim SG, Kim J, Lee HJ. General-Purpose Ultrasound Neuromodulation System for Chronic, Closed-Loop Preclinical Studies in Freely Behaving Rodents. Adv Sci (Weinh). 2022 Oct 19:e2202345. https://doi.org/10.1002/advs.202202345 
 
-* Botros P, Vendrell-Llopis N, Costa R, Carmena J. A neural model of proximity to reward. 2022. BioRxiv 2022.10.03.510669. https://doi.org/10.1101/2022.10.03.510669 
+* Botros P, Vendrell-Llopis N, Costa R, Carmena J. A neural model of proximity to reward. 2022 Oct. BioRxiv 2022.10.03.510669. https://doi.org/10.1101/2022.10.03.510669 
 
 * Yao Y, Barger Z, Saffari Doost M, Tso CF, Darmohray D, Silverman D, Liu D, Ma C, Cetin A, Yao S, Zeng H, Dan Y. Cardiovascular baroreflex circuit moonlights in sleep control. Neuron. 2022 Sep 23:S0896-6273(22)00802-9. https://doi.org/10.1016/j.neuron.2022.08.027.
 
