@@ -51,6 +51,8 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 * Bjerke IE, Cullity ER, Kjelsberg K, Charan KM, Leergaard TB, Kim JH. DOPAMAP, high-resolution images of dopamine 1 and 2 receptor expression in developing and adult mouse brains. Sci Data. 2022 Apr 19;9(1):175. https://doi.org/10.1038/s41597-022-01268-8
 
+* Conserved cell-type specific signature of resilience to Alzheimer’s disease nominates role for excitatory cortical neurons. Telpoukhovskaia MA et al. bioRxiv; doi: https://doi.org/10.1101/2022.04.12.487877
+
 * Tocco C, Øvsthus M, Bjaalie J.G, Leergaard T.B and Studer M. Topography of corticopontine projections is controlled by postmitotic expression of the area-mapping gene Nr2f1. bioRxiv - May 2021 https://doi.org/10.1101/2021.05.10.443413
    
 * Kim S, Jo Y, Kook G, Pasquinelli C, Kim H, Kim K, Hoe HS, Choe Y, Rhim H, Thielscher A, Kim J, Lee HJ. Transcranial focused ultrasound stimulation with high spatial resolution. Brain Stimul. 2021 Mar-Apr;14(2):290-300. https://doi.org/10.1016/j.brs.2021.01.002
