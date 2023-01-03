@@ -39,6 +39,8 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 **Check out the following articles that have used QUINT:**
 
+* Hug NF, Lindsay NM, McCallum WM, Bryan J, Huang K, Ochadarena N, Tassou A, Scherrer G. Opioid receptor architecture for the modulation of brainstem functions. 2022 Dec. BioRxiv. https://doi.org/10.1101/2022.12.24.521865 
+
 * Lopes MM, Paysan J, Rino J, Lopes SM, Pereira de Almeida L, Cortes L, Nobre RJ. A new protocol for whole-brain biodistribution analysis of AAVs by tissue clearing, light-sheet microscopy and semi-automated spatial quantification. Gene Ther. 2022 Nov 1. https://doi.org/10.1038/s41434-022-00372-z.
 
 * Jo Y, Lee SM, Jung T, Park G, Lee C, Im GH, Lee S, Park JS, Oh C, Kook G, Kim H, Kim S, Lee BC, Suh GSB, Kim SG, Kim J, Lee HJ. General-Purpose Ultrasound Neuromodulation System for Chronic, Closed-Loop Preclinical Studies in Freely Behaving Rodents. Adv Sci (Weinh). 2022 Oct 19:e2202345. https://doi.org/10.1002/advs.202202345 
