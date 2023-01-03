@@ -3,7 +3,7 @@
 
 .. note::
    Find full user documentation `here <https://qcalign.readthedocs.io/en/latest/>`_.
-   Download `here <https://www.nitrc.org/projects/qcalign>`_.
+   Download `here <https://www.nitrc.org/projects/qcalign>`_. RRID:SCR_023088.
 
 QCAlign was developed to support the use of the QUINT workflow for high-throughput studies. It is a quality control tool that provides information about:
 
