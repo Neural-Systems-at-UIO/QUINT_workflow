@@ -3,10 +3,9 @@
 
 
 .. note::
-   Nutil v0.7.0 and v0.8.0 are stable and validated with multiple ground truth datasets.
-   Find full user documentation `here <https://nutil.readthedocs.io/en/latest/>`_.
-   Download `here <https://www.nitrc.org/projects/nutil>`_.
-   RRID: SCR_017183.
+   Nutil v0.7.0 and v0.8.0 are stable and validated with multiple ground truth datasets (RRID: SCR_017183).
+   Find full `user documentation <https://nutil.readthedocs.io/en/latest/>`_.
+   `Download here <https://www.nitrc.org/projects/nutil>`_.
    
 .. Warning::
 
