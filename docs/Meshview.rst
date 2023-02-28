@@ -3,7 +3,7 @@
 
 .. note::
 
-   Find user documentation `here <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_.
+   Find user documentation `here <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_. RRID:SCR_017222.
    
 Meshview is a web-based 3D atlas viewer for visualising the point clouds generated with QUINT. 
 
