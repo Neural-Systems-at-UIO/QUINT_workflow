@@ -55,8 +55,8 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 * Telpoukhovskaia MA et al. Conserved cell-type specific signature of resilience to Alzheimer’s disease nominates role for excitatory cortical neurons. bioRxiv; doi: https://doi.org/10.1101/2022.04.12.487877
 
-* Tocco C, Øvsthus M, Bjaalie J.G, Leergaard T.B and Studer M. Topography of corticopontine projections is controlled by postmitotic expression of the area-mapping gene Nr2f1. bioRxiv - May 2021 https://doi.org/10.1101/2021.05.10.443413
-   
+* Tocco C, Øvsthus M, Bjaalie J.G, Leergaard T.B and Studer M. The topography of corticopontine projections is controlled by postmitotic expression of the area-mapping gene Nr2f1. Development; 149 (5). 2022. https://doi.org/10.1242/dev.200026
+
 * Kim S, Jo Y, Kook G, Pasquinelli C, Kim H, Kim K, Hoe HS, Choe Y, Rhim H, Thielscher A, Kim J, Lee HJ. Transcranial focused ultrasound stimulation with high spatial resolution. Brain Stimul. 2021 Mar-Apr;14(2):290-300. https://doi.org/10.1016/j.brs.2021.01.002
    
 * Whilden CM, Chevée M, An Seong Yeol,  Pezon Brown S. The synaptic inputs and thalamic projections of two classes of layer 6 corticothalamic neurons in primary somatosensory cortex of the mouse. J Comp Neurol. 2021 Dec;529(17):3751-3771. doi: https://doi.org/10.1002/cne.25163. Epub 2021 May 6. 
