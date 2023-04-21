@@ -21,5 +21,5 @@ For example, for consecutive sections: _s0001, _s0002, _s0003
 .. image:: images/NamingConvention.PNG
 
 .. tip::
-   The Quantifier feature in *Nutil* uses the _sXXX naming convention to match up corresponding atlas maps, segmentations and registration information. While not recommended, it is possible to bypass the naming convention as long as there is a consistent naming convention across the files. In this case, define the naming convention in *Nutil* using Regular Expressions (RegExp). For more information see the “Help” button in the *Nutil* GUI or contact user support.
+   *Nutil Quantifier* uses the _sXXX naming convention to match up corresponding atlas maps, segmentations and info in the XML/JSON file from QuickNII/VisuAlign. While not recommended, it is possible to bypass the naming convention using Regular Expressions (RegExp) as long as there is a consistent naming convention across the files. For more information see the “Help” button in the *Nutil* GUI or contact user support.
 
