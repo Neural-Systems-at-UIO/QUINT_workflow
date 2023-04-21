@@ -14,6 +14,7 @@ All the software in the QUINT workflow have file input requirements:
 
 * Add a unique ID to each image that reflects the serial order and spacing of the sections. 
 * The format is: _sXXX with XXX representing the section number (not restricted to three digits). 
+* Do not use periods/full stops "." or spaces within the file name. 
 
 For example, for consecutive sections: _s0001, _s0002, _s0003
 
