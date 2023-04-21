@@ -19,6 +19,12 @@ QUINT workflow
    DeepSlice
    
 .. toctree::
+   :caption: Quality Control
+   :maxdepth: 3    
+   
+   QCAlign
+   
+.. toctree::
    :caption: Feature extraction
    :maxdepth: 3
    
@@ -32,10 +38,6 @@ QUINT workflow
    Nutil
    Meshview
    
-.. toctree::
-   :caption: Quality Control
-   :maxdepth: 3    
-   
-   QCAlign
+
 
 
