@@ -39,6 +39,10 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 **Check out the following articles that have used QUINT:**
 
+* Zhang G, Xia S, Zhang N, Gao F, Zlokovik B, Zhang L, Zhao Z, Tao H. Integrative mapping of spatial transcriptomic and amyloid pathology in Alzheimer's disease at single-cell resolution. Preprint. May 2023. https://doi.org/10.1101/2023.05.07.539389 
+
+* Gurdon B, Yates SC, Csucs G, Groeneboom N, Hadad N, Telpoukhovskaia M, Oullette A, Oullette T, O'Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C. Detecting the effect of genetic diversity on brain composition in an Alzheimer's disease mouse model. BioRxiv. Feb 2023. https://doi.org/10.1101/2023.02.27.530226
+ 
 * Hug NF, Lindsay NM, McCallum WM, Bryan J, Huang K, Ochadarena N, Tassou A, Scherrer G. Opioid receptor architecture for the modulation of brainstem functions. 2022 Dec. BioRxiv. https://doi.org/10.1101/2022.12.24.521865 
 
 * Lopes MM, Paysan J, Rino J, Lopes SM, Pereira de Almeida L, Cortes L, Nobre RJ. A new protocol for whole-brain biodistribution analysis of AAVs by tissue clearing, light-sheet microscopy and semi-automated spatial quantification. Gene Ther. 2022 Nov 1. https://doi.org/10.1038/s41434-022-00372-z.
