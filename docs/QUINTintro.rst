@@ -39,6 +39,8 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 **Check out the following articles that have used QUINT:**
 
+* Goralski T et al. Spatial transcriptomics reveals molecular dysfunction associated with Lewy pathology. BioRxiv. May 2023. https://doi.org/10.1101/2023.05.17.541144 
+
 * Zhang G, Xia S, Zhang N, Gao F, Zlokovik B, Zhang L, Zhao Z, Tao H. Integrative mapping of spatial transcriptomic and amyloid pathology in Alzheimer's disease at single-cell resolution. Preprint. May 2023. https://doi.org/10.1101/2023.05.07.539389 
 
 * Gurdon B, Yates SC, Csucs G, Groeneboom N, Hadad N, Telpoukhovskaia M, Oullette A, Oullette T, O'Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C. Detecting the effect of genetic diversity on brain composition in an Alzheimer's disease mouse model. BioRxiv. Feb 2023. https://doi.org/10.1101/2023.02.27.530226
