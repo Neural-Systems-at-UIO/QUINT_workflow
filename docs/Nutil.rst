@@ -9,7 +9,7 @@
    
 .. Warning::
 
-   It is not recommended to use Nutil v0.4.0 - v0.6.0 as they contain bugs that cause incorrect results in some of the reports: see the `release notes <https://nutil.readthedocs.io/en/latest/release.html>`_ for more information. 
+   It is not recommended to use Nutil v0.4.0 - v0.6.0 as they contain bugs that lead to incorrect results in some of the reports: see the `release notes <https://nutil.readthedocs.io/en/latest/release.html>`_ for more information. 
 
    
 *Nutil* is a pre- and post-processing toolbox for histological images. It is an integral part of the QUINT workflow, enabling image transformations, file format conversion and renaming of files in order to prepare images for the *QuickNII* and *ilastik* software. It also supports the final quantification step in the workflow. *Nutil* has four features: 
