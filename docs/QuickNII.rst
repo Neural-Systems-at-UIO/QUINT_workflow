@@ -10,6 +10,7 @@
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3, 2015 and 2017.
 * Waxholm Atlas of the Sprague Dawley Rat, version 2, 3 and 4. 
+* `New Unified Mouse atlas from the KIM lab <https://www.ebrains.eu/news-and-events/new-unified-mouse-atlas-from-the-kim-lab-is-now-available-in-the-ebrains-quicknii-image-registration-tool/>`_.
 
 The registration process is semi-automated:
 
