@@ -23,7 +23,7 @@
 
 **VisuAlign (RRID:SCR_017978)**
 
-* Gurdon B, Yates SC, et al. Investigating cellular diversity in a novel mouse model of Alzheimer's disease. Manuscript in preparation.
+* Gurdon B, Yates SC, Csusc G, Groeneboom N, Hadad N, Telpoukhovskaia M, Ouellette A, Ouellette T, O’Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C  (2023). Detecting the effect of genetic diversity on brain composition in an Alzheimer’s disease mouse model. BioRxiv. DOI: 10.1101/2023.02.27.530226 
 
 **Meshview (RRID:SCR_017222)**
 
@@ -31,7 +31,7 @@
 
 **QCAlign (RRID:SCR_023088)**
 
-Gurdon B, Yates SC, Csusc G, Groeneboom N, Hadad N, Telpoukhovskaia M, Ouellette A, Ouellette T, O’Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C  (2023). Detecting the effect of genetic diversity on brain composition in an Alzheimer’s disease mouse model. BioRxiv. DOI: 10.1101/2023.02.27.530226.
+* Gurdon B, Yates SC, Csusc G, Groeneboom N, Hadad N, Telpoukhovskaia M, Ouellette A, Ouellette T, O’Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C  (2023). Detecting the effect of genetic diversity on brain composition in an Alzheimer’s disease mouse model. BioRxiv. DOI: 10.1101/2023.02.27.530226.
 
 
 
