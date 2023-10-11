@@ -39,6 +39,8 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 **Check out the following articles that have used QUINT:**
 
+* Geertsma et al. A topographical atlas of alpha-Synuclein dosage and cell-type expression in the mouse brain and periphery. bioRxiv. Oct 2023. https://doi.org/10.1101/2023.10.05.559770
+
 * Guardamagna M, Chadney O, Stella F, Zhang Q, Kentros C, Battaglia F. Direct Entorhinal Control of CA1 Temporal Coding. bioRxiv. May 2023; doi: https://doi.org/10.1101/2023.05.27.542579 
 
 * Goralski T et al. Spatial transcriptomics reveals molecular dysfunction associated with Lewy pathology. BioRxiv. May 2023. https://doi.org/10.1101/2023.05.17.541144 
