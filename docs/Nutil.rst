@@ -22,7 +22,7 @@
 
 4. **Quantifier**: for the batch extraction, quantification and spatial analysis of labelling in mouse or rat brain sections.
 
-
+For detailed instructions on how to use Nutil and analyse results, please go to the Nutil `user documentation <https://nutil.readthedocs.io/en/latest/>`_.
 
 
 
