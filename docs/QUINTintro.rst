@@ -39,7 +39,9 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 **Check out the following articles that have used QUINT:**
 
-* Koen Seignette, Nora Jamann, Paolo Papale, Huub Terra, Ralph O Porneso, Leander de Kraker, Chris van der Togt, Maaike van der Aa, Paul Neering, Emma Ruimschotel, Pieter R Roelfsema, Jorrit S Montijn, Matthew W Self, Maarten HP Kole, Christiaan N Levelt. Jan 2024. Experience shapes chandelier cell function and structure in the visual cortex eLife 12:RP91153. https://doi.org/10.7554/eLife.91153.3   
+* Koen Seignette, Nora Jamann, Paolo Papale, Huub Terra, Ralph O Porneso, Leander de Kraker, Chris van der Togt, Maaike van der Aa, Paul Neering, Emma Ruimschotel, Pieter R Roelfsema, Jorrit S Montijn, Matthew W Self, Maarten HP Kole, Christiaan N Levelt. Jan 2024. Experience shapes chandelier cell function and structure in the visual cortex eLife 12:RP91153. https://doi.org/10.7554/eLife.91153.3 
+
+* Lubben N et al. LRRK2 kinase inhibition reverses G2019S mutation-dependent effects on tau pathology spread. bioRxiv. Oct 2023. https://doi.org/10.1101/2023.10.06.561190
 
 * Geertsma et al. A topographical atlas of alpha-Synuclein dosage and cell-type expression in the mouse brain and periphery. bioRxiv. Oct 2023. https://doi.org/10.1101/2023.10.05.559770
 
