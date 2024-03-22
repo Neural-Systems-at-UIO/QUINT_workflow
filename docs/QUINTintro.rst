@@ -41,9 +41,9 @@ QUINT supports histological sections from mouse and rat brain that have been lab
 
 * Lubben N et al. LRRK2 kinase inhibition reverses G2019S mutation-dependent effects on tau pathology progression. Translational Neurodegeneration. March 2024. http://doi.org/10.1186/s40035-024-00403-2
 
-* Koen Seignette, Nora Jamann, Paolo Papale, Huub Terra, Ralph O Porneso, Leander de Kraker, Chris van der Togt, Maaike van der Aa, Paul Neering, Emma Ruimschotel, Pieter R Roelfsema, Jorrit S Montijn, Matthew W Self, Maarten HP Kole, Christiaan N Levelt. Jan 2024. Experience shapes chandelier cell function and structure in the visual cortex eLife 12:RP91153. https://doi.org/10.7554/eLife.91153.3  
+* Geertsma et al. A topographical atlas of alpha-Synuclein dosage and cell-type expression in the adult mouse brain and peripheral organs. npj. March 2024. https://doi.org/10.1038/s41531-024-00672-8
 
-* Geertsma et al. A topographical atlas of alpha-Synuclein dosage and cell-type expression in the mouse brain and periphery. bioRxiv. Oct 2023. https://doi.org/10.1101/2023.10.05.559770
+* Koen Seignette, Nora Jamann, Paolo Papale, Huub Terra, Ralph O Porneso, Leander de Kraker, Chris van der Togt, Maaike van der Aa, Paul Neering, Emma Ruimschotel, Pieter R Roelfsema, Jorrit S Montijn, Matthew W Self, Maarten HP Kole, Christiaan N Levelt. Jan 2024. Experience shapes chandelier cell function and structure in the visual cortex eLife 12:RP91153. https://doi.org/10.7554/eLife.91153.3  
 
 * Guardamagna M, Chadney O, Stella F, Zhang Q, Kentros C, Battaglia F. Direct Entorhinal Control of CA1 Temporal Coding. bioRxiv. May 2023; doi: https://doi.org/10.1101/2023.05.27.542579 
 
