@@ -42,7 +42,7 @@
 
 * Wang Q, Ding SL, Li Y, Royall J, Feng D, Lesnar P, Graddis N, Naeemi M, Facer B, Ho A, Dolbeare T, Blanchard B, Dee N, Wakeman W, Hirokawa KE, Szafer A, Sunkin SM, Oh SW, Bernard A, Phillips JW, Hawrylycz M, Koch C, Zeng H, Harris JA, Ng L. The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas. Cell. 2020 May 14;181(4):936-953.e20. doi: 10.1016/j.cell.2020.04.007. Epub 2020 May 7. PMID: 32386544; PMCID: PMC8152789.
 
-**Waxholm Atlas of the Sprague Dawley Rat (RRID: SCR_017124)**
+**Waxholm Atlas of the Sprague Dawley Rat**
 
 Please refer to the atlas using RRID:SCR_017124, specify the atlas version(s) used, and cite the most recent publication:
 
