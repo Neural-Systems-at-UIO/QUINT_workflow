@@ -42,9 +42,18 @@
 
 * Wang Q, Ding SL, Li Y, Royall J, Feng D, Lesnar P, Graddis N, Naeemi M, Facer B, Ho A, Dolbeare T, Blanchard B, Dee N, Wakeman W, Hirokawa KE, Szafer A, Sunkin SM, Oh SW, Bernard A, Phillips JW, Hawrylycz M, Koch C, Zeng H, Harris JA, Ng L. The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas. Cell. 2020 May 14;181(4):936-953.e20. doi: 10.1016/j.cell.2020.04.007. Epub 2020 May 7. PMID: 32386544; PMCID: PMC8152789.
 
-**Waxholm Atlas of the Sprague Dawley Rat version 2, version 3 and version 4 (RRID: SCR_017124)**
+**Waxholm Atlas of the Sprague Dawley Rat (RRID: SCR_017124)**
 
-* Waxholm Space atlas of the Sprague Dawley rat brain version 2 , 3 and 4. Papp et al., NeuroImage 97, 374-386, 2014; Papp et al., NeuroImage 105, 561–562, 2015; Kjonigsen et al., NeuroImage 108, 441-449, 2015; Osen et al., NeuroImage 199, 38-56, 2019; Kleven et al., in preparation.
+Please refer to the atlas using RRID:SCR_017124, specify the atlas version(s) used, and cite the most recent publication:
+
+•	Kleven, H., Bjerke, I.E., Clascá, F. et al. Waxholm Space atlas of the rat brain: a 3D atlas supporting data analysis and integration. Nat Methods 20, 1822–1829 (2023). DOI: 10.1038/s41592-023-02034-3
+
+If your work makes use of previous atlas versions, or brain region descriptions detailed in earlier publications, please also cite the corresponding publication:
+
+•	Version 1: Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: 10.1016/j.neuroimage.2014.04.001
+•	Version 2: Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI: 10.1016/j.neuroimage.2014.12.080
+•	Version 3: Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI: 10.1016/j.neuroimage.2019.05.016
+
 
 
 
