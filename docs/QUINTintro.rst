@@ -13,7 +13,7 @@ QUINT involves several defined steps:
 
 .. image:: images/QUINT_image.PNG
  
-1. **Image preparation** using *Nutil* or another image analysis tool.
+1. **Prepare images** using *Nutil* or another image analysis tool.
 2. **Atlas-registration** with *QuickNII*, *VisuAlign* and/or *DeepSlice*. They support registration of the images to a reference brain atlas. Linear registration is performed using *QuickNII*, then *VisuAlign* enables refinement of the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
 3. **Feature extraction** using *ilastik* or another image analysis tool. 
 4. **Quantification** with *Nutil*.
