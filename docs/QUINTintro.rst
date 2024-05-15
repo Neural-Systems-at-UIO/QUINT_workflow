@@ -4,14 +4,14 @@
 .. tip::   
    **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
 
-The QUINT workflow comprises a suite of software designed to support atlas-based quantification of labelled features in series of histological images from mouse or rat brain. All the software have graphical user interfaces (GUIs), no coding ability required. The QUINT workflow generates object counts and percentage coverage per atlas-region, in addition to point clouds for visualising the features in 3D atlas space. It currently supports quantification relative to the following atlases:
+The QUINT workflow is an analysis solution for 2D rodent microscopy data, enabling brain-wide mapping and regional quantification relative to a reference brain atlas. It combines the use of several software with graphical user interfaces (GUI), no coding ability required. The QUINT workflow takes brain section image series as input, and generates object counts and percentage coverage per atlas-region in addition to point clouds for visualising extracted features in 3D atlas space. It currently supports quantification relative to the following atlases:
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2015 and 2017) (CCFv3)
 * Waxholm Atlas of the Sprague Dawley rat, version 2, 3 and 4 (WHS rat brain atlas). 
 
 QUINT involves several defined steps: 
 
-.. image:: images/QUINT.png
+.. image:: images/QUINT_image.png
  
 1. **Image preparation** using *Nutil* or another image analysis tool.
 2. **Atlas-registration** with *QuickNII*, *VisuAlign* and/or *DeepSlice*. They support registration of the images to a reference brain atlas. Linear registration is performed using *QuickNII*, then *VisuAlign* enables refinement of the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
