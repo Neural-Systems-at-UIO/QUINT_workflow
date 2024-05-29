@@ -2,7 +2,7 @@
 --------------
 
 .. note::
-   Find full `user documentation <https://quicknii.readthedocs.io/en/latest/>`_.
+   Full `QuickNII user documentation <https://quicknii.readthedocs.io/en/latest/>`_.
    `Download here <https://www.nitrc.org/projects/quicknii>`_.
    RRID:SCR_016854.
 
