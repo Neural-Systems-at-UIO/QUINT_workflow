@@ -56,7 +56,7 @@ If your work makes use of previous atlas versions, or brain region descriptions 
 •	Version 2: Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI: 10.1016/j.neuroimage.2014.12.080
 •	Version 3: Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI: 10.1016/j.neuroimage.2019.05.016
 
-**Kim Unified Mouse Brain Atlas version 1 
+**Kim Unified Mouse Brain Atlas version 1**
 
 •	Chon, U., Vanselow, D.J., Cheng, K.C. et al. Enhanced and unified anatomical labeling for a common mouse brain atlas.
 Nat Commun 10, 5067 (2019). https://doi.org/10.1038/s41467-019-13057-w
