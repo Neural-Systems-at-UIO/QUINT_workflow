@@ -1,11 +1,11 @@
-**Meshview Atlas Viewer**
+**MeshView Atlas Viewer**
 -----------------------------
 
 .. note::
 
-   Find user documentation `here <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_. RRID:SCR_017222.
+   Full `Meshviewuser documentation  <https://meshview-for-brain-atlases.readthedocs.io/en/latest/>`_. RRID:SCR_017222.
    
-Meshview is a web-based 3D atlas viewer for visualising the point clouds generated with QUINT. 
+MeshView is a web-based 3D atlas viewer for visualising the point clouds generated with QUINT. 
 
 `WHS version 2 <https://meshview.apps.hbp.eu/?atlas=WHS_SD_Rat_v2_39um>`_
 
