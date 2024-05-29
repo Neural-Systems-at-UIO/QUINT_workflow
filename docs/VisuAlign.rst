@@ -2,7 +2,7 @@
 --------------
 
 .. note::
-Full `VisuAlign user documentation <https://visualign.readthedocs.io/en/latest/>`_. 
+   Full `VisuAlign user documentation <https://visualign.readthedocs.io/en/latest/>`_. 
    `Download here <https://www.nitrc.org/projects/visualign>`_. 
    RRID: SCR_017978.
 
