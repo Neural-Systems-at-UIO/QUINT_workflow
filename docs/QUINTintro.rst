@@ -6,7 +6,9 @@
 
 The QUINT workflow is an analysis solution for 2D rodent microscopy data, enabling brain-wide mapping and regional quantification relative to a reference brain atlas. It combines the use of several software with graphical user interfaces (GUI), no coding ability required. 
 
-As input, the QUINT workflow takes images of labelled brain sections, and as output generates counts of labelled objects, percentage coverage per atlas-region, and point clouds for visualising labelling in 3D atlas space. It currently supports quantification relative to the following atlases:
+As input, the QUINT workflow takes images of labelled brain sections and as output generates counts of labelled objects, percentage coverage per atlas-region, and point clouds for visualising labelling in 3D atlas space. 
+
+It currently supports quantification relative to the following atlases:
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2015 and 2017) (CCFv3)
 * Waxholm Atlas of the Sprague Dawley rat, version 2, 3 and 4 (WHS rat brain atlas). 
@@ -16,12 +18,12 @@ QUINT involves several defined steps:
 
 .. image:: images/QUINT_image.PNG
  
-1. **Prepare images** using *Nutil* or another image analysis tool.
-2. **Register to an atlas** using *QuickNII*, *VisuAlign* and/or *DeepSlice*. Linear registration is performed using *QuickNII*, then *VisuAlign* enables refinement of the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* automates the linear registration step.  
+1. **Prepare images** for analysis using *Nutil* or another image manipulation tool (rename to match QUINT file naming convention and downscale).
+2. **Register to an atlas** using *QuickNII*, *VisuAlign* and/or *DeepSlice*. Linear registration is performed using *QuickNII*, then *VisuAlign* enables refinement of the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
 3. **Extract features** using *ilastik* or another image analysis tool. 
-4. **Quantify and analyse** with *Nutil*.
-5. **Perform quality control** with *QCAlign*. This is optional and supports quality control of the section images, as well as quality control of the atlas-registration. It also enables exploration of the atlas hierarchy and creation of a customized hierarchy level to use for the quantification.
-6. **Visualise** the results in 3D with the *Meshview* Atlas Viewer.
+4. **Quantify and analysis** with *Nutil*.
+5. **Perform quality control** with *QCAlign*. This is an optional step that allows quality control of the section images and quality control of the atlas-registration. It also enables exploration of the atlas hierarchy and creation of a customized hierarchy level to use for the quantification.
+6. **Visualise** the results in 3D with the *MeshView* Atlas Viewer.
 
 **Watch our video tutorial**
 
@@ -34,7 +36,7 @@ QUINT involves several defined steps:
 **Examples of use**
 ----------------------------------
 
-QUINT supports histological sections from mouse and rat brain that have been labelled to reveal features. It works for sections cut at any angle of orientation, for complete as well as partial brain sections, and for sections affected by distortion. It can be used for:
+QUINT is suited for histological sections from mouse and rat brain that have been labelled to reveal features. It works for sections cut at any angle of orientation, for complete as well as partial brain sections, and for sections affected by distortions. It can be used for:
 
 * Cell count analysis
 * To spatially characterise pathology
