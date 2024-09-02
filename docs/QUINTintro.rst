@@ -45,6 +45,8 @@ QUINT is suited for histological sections from mouse and rat brain that have bee
 
 **Check out the following articles that have used QUINT:**
 
+* Correia A et al. Cellular prion protein acts as mediator of amyloid beta uptake by caveolin-1 causing cellular dysfunctions in vitro and in vivo. Alzheimers Dement. 2024 Aug 30. http://doi.org/10.1002/alz.14120
+
 * Lubben N et al. LRRK2 kinase inhibition reverses G2019S mutation-dependent effects on tau pathology progression. Translational Neurodegeneration. March 2024. http://doi.org/10.1186/s40035-024-00403-2
 
 * Geertsma et al. A topographical atlas of alpha-Synuclein dosage and cell-type expression in the adult mouse brain and peripheral organs. npj. March 2024. https://doi.org/10.1038/s41531-024-00672-8
