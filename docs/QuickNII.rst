@@ -2,7 +2,7 @@
 --------------
 
 .. note::
-   QuickNII user manual and download <https://quicknii.readthedocs.io/en/latest/>`_.
+   `QuickNII user manual and download <https://quicknii.readthedocs.io/en/latest/>`_.
    
    RRID:SCR_016854.
 
