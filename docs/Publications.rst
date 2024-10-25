@@ -11,7 +11,7 @@
 
 **DeepSlice**
    
-* Carey H, Pegios M, Martin L, Saleeba C, Turner A, Everett N, Puchades M, Bjaalie J, McMullan S. DeepSlice: rapid fully automatic registration of mouse brain imaging to a volumetric atlas. BioRxiv. https://doi.org/10.1101/2022.04.28.489953 
+* Carey H., Pegios M., Martin L., Saleeba C., Turner A.J., Everett N.A., Bjerke I.E., Puchades M.A., Bjaalie J.G., McMullan S. DeepSlice: rapid fully automatic registration of mouse brain imaging to a volumetric atlas. Nat Commun 14, 5884 (2023). https://doi.org/10.1038/s41467-023-41645-4
 
 **ilastik (RRID:SCR_015246)**
 
