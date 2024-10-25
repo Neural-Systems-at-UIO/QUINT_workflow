@@ -23,7 +23,7 @@
 
 **VisuAlign (RRID:SCR_017978)**
 
-* Puchades MA, Csucs G, Lederberger D, Leergaard TB and Bjaalie JG. Spatial registration of serial microscopic brain images to three-dimensional reference atlases with the QuickNII tool. PLosONE, 2019, 14(5): e0216796. https://doi.org/10.1371/journal.pone.0216796
+* Gurdon B, Yates SC, Csusc G, Groeneboom N, Hadad N, Telpoukhovskaia M, Ouellette A, Ouellette T, O’Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C (2023). Detecting the effect of genetic diversity on brain composition in an Alzheimer’s disease mouse model. Commun Biol. 2024 May 20;7(1):605. https://doi.org/10.1038/s42003-024-06242-1.
 
 **Meshview (RRID:SCR_017222)**
 
