@@ -16,7 +16,7 @@ It currently supports quantification using the following atlases:
 * Kim Unified Adult Mouse Brain Atlas version 1 (2019) (using Nutil v1 and above).
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA), using Allen CCFv3 delineations from 2017 (using Nutil v1 and above).
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA), using Kim Lab developmental delineations (KimLabDev CCFv001) (using Nutil v1 and above).
-* Other atlases can be used as long as they are implemented in QuickNII/VisuAlign (contact us at EBRAINS support).
+* Other atlases can be used as long as they are implemented in QuickNII/VisuAlign (make a request through EBRAINS support).
 
 QUINT involves several defined steps: 
 
