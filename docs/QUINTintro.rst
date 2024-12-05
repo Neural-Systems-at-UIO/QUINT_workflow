@@ -6,25 +6,28 @@
 
 The QUINT workflow is an analysis solution for rodent brain microscopy data, enabling brain-wide mapping and regional quantification using a reference brain atlas. It combines the use of several software with graphical user interfaces (GUI), no coding ability required. 
 
-As input, the QUINT workflow takes histological images of brain sections, and as output generates counts of labelled objects, percentage coverage per atlas-region, and point clouds for visualising labelling in 3D atlas space. 
+The QUINT workflow takes image series of brain sections as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space as output. 
 
-It currently supports quantification relative to the following atlases:
+It currently supports quantification using the following atlases:
 
-* Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2015 and 2017) (CCFv3)
-* Waxholm Atlas of the Sprague Dawley rat, version 2, 3 and 4 (WHS rat brain atlas). 
-* Kim Unified Mouse Brain Atlas version 1 (2019)
-* Developmental Mouse Brain Atlas (DeMBA, day 4-56)
+* Allen Mouse Brain Atlas, Common Coordinate Framework version 3 (CCFv3), delineations from 2015.
+* Allen Mouse Brain Atlas, Common Coordinate Framework version 3 (CCFv3), delineations from 2017.
+* Waxholm Atlas of the Spraque Dawley Rat (WHS), version 2, 3 and 4.
+* Kim Unified Adult Mouse Brain Atlas version 1 (2019) (using Nutil v1 and above).
+* Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA), using Allen CCFv3 delineations from 2017 (using Nutil v1 and above).
+* Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA), using Kim Lab developmental delineations (KimLabDev CCFv001) (using Nutil v1 and above).
+* Other atlases can be used in Nutil via the custom atlas feature as long as they are implemented in QuickNII/VisuAlign.
 
 QUINT involves several defined steps: 
 
 .. image:: images/QUINT_image.PNG
  
-1. **Prepare images** for analysis using *Nutil* or another image editing tool (rename the files to meet the QUINT file naming convention and downscale).
-2. **Register to an atlas** using *QuickNII*, *VisuAlign* and/or *DeepSlice*. Linear registration is performed using *QuickNII*, then *VisuAlign* enables refinement of the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
-3. **Extract features** using *ilastik* or another image analysis tool. 
+1. **Prepare section images** for analysis using *Nutil* or another image editing tool (e.g. rename the files to meet the QUINT file naming convention, downscale the images, etc).
+2. **Register the section images to an atlas** using *QuickNII*, *VisuAlign* and/or *DeepSlice*. Linear registration is performed using *QuickNII*, *VisuAlign* enables refinement of the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
+3. **Extract features** using *ilastik* or another image analysis tool such as ImageJ or QuPath. 
 4. **Quantify features** with *Nutil*.
-5. **Perform quality control** with *QCAlign*. This is an optional step that allows quality control of the section images and quality control of the atlas-registration. It also enables exploration of the atlas hierarchy and creation of a customized hierarchy level to use for the quantification.
-6. **Visualise** the results in 3D with the *MeshView* Atlas Viewer.
+5. **Perform quality control** with *QCAlign* (optional). This allows checks for tissue damage and quality control of the atlas-registration to the sections. It also enables exploration of the atlas hierarchy and creation of a customized hierarchy level to use for the quantification.
+6. **Visualise** the results in 3D atlas space using the *MeshView* Atlas Viewer.
 
 **Watch our video tutorial**
 
@@ -37,11 +40,12 @@ QUINT involves several defined steps:
 **Examples of use**
 ----------------------------------
 
-QUINT is suited for histological sections from mouse and rat brain that have been labelled to reveal features. It works for sections cut at any angle of orientation, for complete as well as partial brain sections, and for sections affected by distortions. It can be used for:
+QUINT is suited for histological sections from mouse and rat brain that have been labelled to reveal features. It works for sections cut at any angle of orientation, for complete and partial brain sections, and for sections affected by distortion and damage. It can be used for:
 
 * Cell count analysis
 * To spatially characterise pathology
 * Analyse tract tracing connections
+* Analyse tissue clearing data captured by light sheet microscopy
 
 **Check out the following articles that have used QUINT:**
 
