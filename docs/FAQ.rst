@@ -3,7 +3,7 @@
 
 You can find FAQ for each software here:
 
-`QuickII FAQ <https://quicknii.readthedocs.io/en/latest/FAQ.html/>`_
+`QuickNII FAQ <https://quicknii.readthedocs.io/en/latest/FAQ.html/>`_
 
 `VisuAlign FAQ <https://visualign.readthedocs.io/en/latest/FAQ.html/>`_
 
