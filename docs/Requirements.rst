@@ -21,8 +21,8 @@ For every fourth section starting with the third section: _s003, _s007, _s0011.
 .. image:: images/NamingConvention.PNG
 
 .. Warning::
-* Do not use periods "." or spaces (" ") within the file name. This will not work. 
-* As Nutil scans and detects the “_s” part of the name, the file name must not contain additional “_s”., for example: tg2345_MMSH_ss_s001.png. This will not work in Nutil.
+   * Do not use periods "." or spaces (" ") within the file name. This will not work. 
+   * As Nutil scans and detects the “_s” part of the name, the file name must not contain additional “_s”., for example: tg2345_MMSH_ss_s001.png. This will not work in Nutil.
 
 .. tip::
    *Nutil Quantifier* uses the _sXXX naming convention to match up corresponding atlas maps, segmentations and info in the XML/JSON file from QuickNII/VisuAlign. While not recommended, it is possible to bypass the naming convention using Regular Expressions (RegExp) as long as there is a consistent naming convention across the files. For more information see the “Help” button in the *Nutil* GUI or contact user support.
