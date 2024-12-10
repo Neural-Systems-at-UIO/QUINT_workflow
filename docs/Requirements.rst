@@ -20,7 +20,7 @@ For every fourth section starting with the third section: _s003, _s007, _s0011.
 
 .. image:: images/NamingConvention.PNG
 
-..Warning::
+.. Warning::
 * Do not use periods "." or spaces (" ") within the file name. This will not work. 
 * As Nutil scans and detects the “_s” part of the name, the file name must not contain additional “_s”., for example: tg2345_MMSH_ss_s001.png. This will not work in Nutil.
 
