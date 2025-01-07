@@ -12,15 +12,15 @@ All the software in the QUINT workflow have requirements for the input images:
 **Naming convention**
 -------------------------------
 
-* Add a unique ID to each image reflecting the serial order and spacing of the sections (as *QuickNII* propagates the registration using the numbers, it is important they reflect the order and spacing of the sections). 
-* The format is: _sXXX with XXX representing the section number (not restricted to three digits).
-* Do not use periods "." or spaces (" ") within the file name. This will not work. 
-* As Nutil scans and detects the “_s” part of the name, the file name must not contain additional “_s” (for example "tg2345_MMSH_ss_s001.png" will not work in *Nutil*).
+* Add a unique ID to the file names of the images reflecting the serial order and spacing of the sections. The format is: _sXXX with XXX representing the section number (not restricted to three digits). As *QuickNII* propagates the registration using these numbers, it is important they respect the order and spacing (in case of coronal sections, can be either from anterior to posterior or posterior to anterior). 
+* Do not use periods "." or spaces (" ") in the file name. This will not work. 
+* As Nutil scans and detects the “_s” part of the name, the file name must not contain additional “_s” (for example "tg2345_MMSH_ss_s001.png" will not work).
 
-Example: for consecutive sections: _s0001, _s0002, _s0003; for every fourth section starting with the third section: _s003, _s007, _s0011. 
+Example for consecutive sections: _s0001, _s0002, _s0003.
+Example for every fourth section starting with the third section: _s003, _s007, _s0011. 
 
 .. image:: images/NamingConvention.PNG
 
 .. tip::
-   *Nutil Quantifier* uses the unique ID to match up corresponding atlas maps, segmentations and info in the JSON file from *QuickNII/VisuAlign*. While not recommended, it is possible to bypass the naming convention using Regular Expressions (RegExp) as long as there is a consistent naming convention across the files. For more information see the “Help” button in the *Nutil* GUI or contact user support.
+   The Quantifier feature in *Nutil* uses the unique IDs to match up corresponding atlas maps, segmentations and registration information in the JSON file from *QuickNII/VisuAlign*. While not recommended, it is possible to bypass the naming convention in *Nutil* using Regular Expressions (RegExp) as long as there is a consistent naming convention across the files. For more information see the “Help” button in the *Nutil* GUI or contact user support.
 
