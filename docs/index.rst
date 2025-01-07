@@ -6,10 +6,15 @@ QUINT workflow
    :maxdepth: 3
 
    QUINTintro
-   Requirements
    FAQ
    Publications
    Contact
+
+.. toctree::
+   :caption: Preparing your images
+   :maxdepth: 3
+
+   Requirements
    
 .. toctree::
    :caption: Atlas-registration
