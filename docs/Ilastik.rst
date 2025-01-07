@@ -19,13 +19,13 @@
 **Preparing images for ilastik**
 ---------------------------------
 
-1. **Image size**
+**Image size**
 
 As a general rule, the histological images should be downscaled before segmenting with *ilastik*. This improves the output quality and speeds up the analysis. 
 
 The resize factor will depend on the original size of the images and the size of the features to be extracted. It is determined by trial and error. The Pixel Classification algorithm extracts image pixels based on their colour, intensity and / or texture on a scale up to 10 sigma. This means that the algorithm recognises edges or objects that fall within a 10 x 10 pixel window. For the best result, resize the images so that the objects (for example, cells) fall within this window, but without loss of important information (for example, smaller cells).  A resize factor of 0.2 or 0.1 is a good starting point. 
 
-2. **File format**
+**File format**
 
 Ilastik supports many `file formats. <https://www.ilastik.org/documentation/basics/dataselection>`_ PNG works well. It does not support tiled TIFFs.
 
