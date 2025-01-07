@@ -37,8 +37,20 @@ QUINT involves several defined steps:
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-gQigcGMJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
-|
+
+**FAQ**
+---------
+
+You can find FAQ for each software here:
+
+`QuickNII FAQ <https://quicknii.readthedocs.io/en/latest/FAQ.html>`_
+
+`VisuAlign FAQ <https://visualign.readthedocs.io/en/latest/FAQ.html>`_
+
+`Ilastik FAQ <https://quint-workflow.readthedocs.io/en/latest/Ilastik.html#faq-and-troubleshooting/>`_
+
+`Nutil FAQ <https://nutil.readthedocs.io/en/latest/FAQ.html>`_
+
 
 **Examples of use**
 ----------------------------------
@@ -93,6 +105,7 @@ QUINT is suited for sections from mouse and rat brain that have been labelled to
 * McDonald MW, Jeffers MS, Filadelfi M, Vicencio A, Heidenreich G, Wu J and Silasi G. Localizing Microemboli within the Rodent Brain through Block-Face Imaging and Atlas Registration. eNeuro 16 July 2021, 8 (4) ENEURO.0216-21.2021; DOI: https://doi.org/10.1523/ENEURO.0216-21.2021    
    
 * Bjerke IE, Yates SC, Laja A, Witter MP, Puchades MA, Bjaalie JG and Leergaard TB. Densities and numbers of calbindin and parvalbumin positive neurons across the rat and mouse brain. 2021, iScience.https://doi.org/10.1016/j.isci.2020.101906
+
 
 
 
