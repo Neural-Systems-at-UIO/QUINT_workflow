@@ -18,6 +18,9 @@ The QUINT workflow takes brain section image series as input, and generates coun
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Kim Lab developmental delineations (KimLabDev CCFv001).
 * Other atlases can also be used as long as they are implemented in the *QuickNII/VisuAlign* software (make a request through EBRAINS support).
 
+**The QUINT workflow**
+------------------------
+
 QUINT involves several defined steps: 
 
 .. image:: images/QUINT_image.PNG
