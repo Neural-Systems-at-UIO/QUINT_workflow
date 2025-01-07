@@ -2,7 +2,7 @@
 --------------
 
 .. note::
-   `*VisuAlign* user manual and download <https://visualign.readthedocs.io/en/latest/>`_.
+   `VisuAlign user manual and download <https://visualign.readthedocs.io/en/latest/>`_.
    RRID: SCR_017978.
 
 *VisuAlign* is a tool that allows in-plane refinement of the *QuickNII* registration using non-linear methods. 
