@@ -8,7 +8,8 @@ The QUINT workflow is an analysis solution for rodent brain microscopy data, ena
 
 The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
 
-It supports quantification using the following mouse and rat brain atlases:
+**Supported atlases**
+------------------------
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3 (CCFv3) (delineations from 2017 or 2015).
 * Waxholm Atlas of the Spraque Dawley Rat (WHS) (version 2, 3 and 4).
