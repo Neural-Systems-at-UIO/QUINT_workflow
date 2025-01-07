@@ -6,7 +6,6 @@ QUINT workflow
    :maxdepth: 3
 
    QUINTintro
-   FAQ
    Publications
    Contact
 
