@@ -1,7 +1,7 @@
 **Cite us**
 ===================
 
-**QUINT**
+**QUINT workflow**
 
 * Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn PH, Demuth HU,Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA, Bjaalie JG. QUINT: Workflow for quantification and spatial analysis of features in histological images from rodent brain. *Front Neuroinform.* 2019 Dec 3;13:75. https://doi.org/10.3389/fninf.2019.00075.
 
@@ -13,7 +13,7 @@
    
 * Carey H., Pegios M., Martin L., Saleeba C., Turner A.J., Everett N.A., Bjerke I.E., Puchades M.A., Bjaalie J.G., McMullan S. DeepSlice: rapid fully automatic registration of mouse brain imaging to a volumetric atlas. Nat Commun 14, 5884 (2023). https://doi.org/10.1038/s41467-023-41645-4
 
-**ilastik (RRID:SCR_015246)**
+**Ilastik (RRID:SCR_015246)**
 
 * Berg S., Kutra D., Kroeger T., Straehle C.N., Kausler B.X., Haubold C., et al. (2019) ilastik:interactive machine learning for (bio) image analysis. Nat Methods. 16, 1226–1232. https://doi.org/10.1038/s41592-019-0582-9
 
@@ -25,7 +25,9 @@
 
 * Puchades MA, Csucs G, Lederberger D, Leergaard TB and Bjaalie JG. Spatial registration of serial microscopic brain images to three-dimensional reference atlases with the QuickNII tool. PLosONE, 2019, 14(5): e0216796. https://doi.org/10.1371/journal.pone.0216796
 
-**Meshview (RRID:SCR_017222)**
+* Gurdon B, Yates SC, Csusc G, Groeneboom N, Hadad N, Telpoukhovskaia M, Ouellette A, Ouellette T, O’Connell K, Singh S, Murdy T, Merchant E, Bjerke I, Kleven H, Schlegel U, Leergaard T, Puchades M, Bjaalie J, Kaczorowski C  (2023). Detecting the effect of genetic diversity on brain composition in an Alzheimer’s disease mouse model. Commun Biol. 2024 May 20;7(1):605. https://doi.org/10.1038/s42003-024-06242-1.
+
+**MeshView (RRID:SCR_017222)**
 
 * Puchades MA, Csucs G, Ledergerber D, Leergaard TB, Bjaalie JG (2019). Spatial registration of serial microscopic brain images to three-dimensional reference atlases with the QuickNII tool. PLOS ONE 14(5): e0216796. https://doi.org/10.1371/journal.pone.0216796
 
@@ -41,7 +43,7 @@
 
 * Wang et al. (2020). The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas. Cell. https://doi.org/10.1016/j.cell.2020.04.007 
 
-See the `citation policy <https://alleninstitute.org/citation-policy/>`_ from the Allen Intitute for more information.
+Check the Allen Institute `citation policy <https://alleninstitute.org/citation-policy/>`_.
 
 **Waxholm Space Atlas of the Sprague Dawley Rat**
 
