@@ -1,4 +1,4 @@
-**Preparing the images**
+**Preparing your images**
 ==========================
 
 All the software in the QUINT workflow have requirements for the input images:
