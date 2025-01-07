@@ -7,9 +7,9 @@ QUINT workflow
 
    QUINTintro
    Requirements
+   FAQ
    Publications
    Contact
-   FAQ
    
 .. toctree::
    :caption: Atlas-registration
