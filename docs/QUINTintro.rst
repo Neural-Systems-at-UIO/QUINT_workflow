@@ -15,7 +15,7 @@ It supports quantification using the following mouse and rat brain atlases:
 * Kim Unified Adult Mouse Brain Atlas (version 1, 2019).
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Allen CCFv3 delineations from 2017.
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Kim Lab developmental delineations (KimLabDev CCFv001).
-* Other atlases can also be used as long as they are implemented in the QuickNII/VisuAlign software (make a request through EBRAINS support).
+* Other atlases can also be used as long as they are implemented in the *QuickNII/VisuAlign* software (make a request through EBRAINS support).
 
 QUINT involves several defined steps: 
 
@@ -23,7 +23,7 @@ QUINT involves several defined steps:
  
 1. **Prepare section images** for analysis using *Nutil* or another image editing tool (e.g. rename the files to meet the QUINT file naming convention, downscale the images, etc).
 2. **Register the section images to an atlas** using *QuickNII*, *VisuAlign* and/or *DeepSlice*. Linear registration is performed using *QuickNII*, *VisuAlign* supports refining the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
-3. **Extract features** using *ilastik* or another image analysis tool such as NIH ImageJ or QuPath. 
+3. **Extract features** using *ilastik* or another image analysis tool such as *NIH ImageJ* or *QuPath*. 
 4. **Quantify features** with *Nutil*.
 5. **Perform quality control** with *QCAlign* (optional). This allows checks for tissue damage and quality control of the atlas-registration to the sections. It also enables exploration of the atlas hierarchy and creation of a customized hierarchy level to use for the quantification.
 6. **Visualise** the results in 3D atlas space using the *MeshView* Atlas Viewer.
