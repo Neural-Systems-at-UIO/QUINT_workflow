@@ -2,7 +2,7 @@
 ------------
 
 .. note::
-   `*QCAlign* user manual and download information <https://qcalign.readthedocs.io/en/latest/>`_ (RRID:SCR_023088).
+   `QCAlign user manual and download information <https://qcalign.readthedocs.io/en/latest/>`_ (RRID:SCR_023088).
 
 *QCAlign* was developed to support the use of the QUINT workflow for high-throughput studies. It is a quality control tool that provides information about:
 
