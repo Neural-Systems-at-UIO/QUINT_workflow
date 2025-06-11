@@ -4,7 +4,7 @@
 .. tip::   
    **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
 
-The QUINT workflow is an analysis solution for rodent brain microscopy data, enabling brain-wide mapping and regional quantification using a reference brain atlas. It combines the use of several software with graphical user interfaces (GUI), no coding ability required. 
+The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, enabling brain-wide mapping and regional quantification using a reference brain atlas. It combines the use of several software with graphical user interfaces (GUI), no coding ability required. 
 
 The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
 
@@ -16,7 +16,7 @@ The QUINT workflow takes brain section image series as input, and generates coun
 * Kim Unified Adult Mouse Brain Atlas (version 1, 2019).
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Allen CCFv3 delineations from 2017.
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Kim Lab developmental delineations (KimLabDev CCFv001).
-* Other atlases can also be used as long as they are implemented in the *QuickNII/VisuAlign* software (make a request through EBRAINS support).
+* Some other atlases have been made available in our tools by external users (contact us at EBRAINS support to find out more).
 
 **The QUINT workflow**
 ------------------------
@@ -37,6 +37,10 @@ QUINT involves several defined steps:
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-gQigcGMJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+.. tip::   
+   **For in-depth tutorials on use of the software in the QUINT workflow, check out our `online course <https://training.incf.org/course/neuroscience-data-integration-through-use-digital-brain-atlases>`_ available through the INCF training space (parts 7-11).
+
 
 **FAQ**
 ---------
