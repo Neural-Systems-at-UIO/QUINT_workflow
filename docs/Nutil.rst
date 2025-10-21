@@ -3,8 +3,7 @@
 
 
 .. note::
-   Full `Nutil user documentation <https://nutil.readthedocs.io/en/latest/>`_. (RRID: SCR_017183).
-   `Download here <https://www.nitrc.org/projects/nutil>`_.
+   `Nutil user manual and download information <https://www.nitrc.org/projects/nutil>`_.
    
 .. Warning::
 

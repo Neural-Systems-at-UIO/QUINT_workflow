@@ -3,9 +3,9 @@
 
 .. note::
 
-  Any image analysis software may be used to generate the segmentations as long as they meet the requirements of the `Nutil software <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.
+  Any image analysis tool may be used to generate the segmentations as long as they meet the requirements of the `Nutil software <https://nutil.readthedocs.io/en/latest/QuantifierInput.html#preparing-the-segmentations>`_.
   
-  These instructions describe the use of *ilastik* for the QUINT workflow. Find full ilastik user documentation and download `here <https://www.ilastik.org /download.html>`_. RRID:SCR\_015246.
+  This section describes the use of *ilastik* for the QUINT workflow. Find *ilastik* user documentation and download `here <https://www.ilastik.org /download.html>`_. RRID:SCR\_015246.
 
 * *Iiastik* is a supervised machine learning tool that supports feature extraction by segmentation.
 * The segmentations from *ilastik* are 8-bit PNG images that appear black in appearance. They should not be used directly in *Nutil*. 
