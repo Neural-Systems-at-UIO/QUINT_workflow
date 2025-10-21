@@ -5,9 +5,9 @@ Any image analysis software may be used to generate the segmentations as long as
 
 .. tip::
 
-    `QuPath: <https://qupath.github.io/QuPath>`_ is an alternative that can be used to generate the segmentations. In some cases QuPath may perform better than ilastik.
+    `QuPath: <https://qupath.github.io/>`_ is an alternative that can be used to generate the segmentations. In some cases QuPath may perform better than ilastik. See `this iprotocol <https://www.protocols.io/view/quint-workflow-for-fluorescence-4r3l22y6jl1y/v2>`_ for how to use QuPath for the QUINT workflow. 
 
-    `FIJI: <https://imagej.net/software/fiji/>`_ is also useful for generating segmentations. 
+    `FIJI: <https://imagej.net/software/fiji/>`_ is also useful for generating segmentations.
 
 
 
