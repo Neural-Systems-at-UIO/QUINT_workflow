@@ -4,6 +4,24 @@
 The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, enabling brain-wide mapping and regional quantification using a reference brain atlas. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. It combines the use of a series of standalone desktop applications with graphical user interfaces (GUI), no coding ability required. 
 
 .. image:: images/QUINT_image.PNG
+
+.. tip::   
+   **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
+
+**Which atlases are supported**
+-----------------------------------
+
+* Allen Mouse Brain Atlas Common Coordinate Framework version 3 (CCFv3) (delineations from 2017 or 2015).
+* Waxholm Atlas of the Spraque Dawley Rat (WHS) (version 2, 3 and 4).
+* Kim Unified Adult Mouse Brain Atlas (version 1, 2019).
+* Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Allen CCFv3 delineations from 2017.
+* Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Kim Lab developmental delineations (KimLabDev CCFv001).
+* Some other atlases have been made available in our tools by external users (contact us at EBRAINS support to find out more).
+
+**What is the output of the QUINT workflow?**
+-----------------------------------------------
+
+The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
  
 
 **How to access the QUINT workflow?**   
@@ -21,52 +39,18 @@ The QUINT workflow involves defined steps using several desktop applications (Qu
 5. **Perform quality control** steps with *QCAlign* (optional). This allows checks for tissue damage and quality control of the atlas-registration to the sections. It enables exploration of the atlas hierarchy and creation of customised compilations of regions to use for Nutil quantification.
 6. **Visualise** the results in 3D atlas space using the online *MeshView* Atlas Viewer.
 
-**Which atlases are supported**
------------------------------------
-
-* Allen Mouse Brain Atlas Common Coordinate Framework version 3 (CCFv3) (delineations from 2017 or 2015).
-* Waxholm Atlas of the Spraque Dawley Rat (WHS) (version 2, 3 and 4).
-* Kim Unified Adult Mouse Brain Atlas (version 1, 2019).
-* Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Allen CCFv3 delineations from 2017.
-* Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Kim Lab developmental delineations (KimLabDev CCFv001).
-* Some other atlases have been made available in our tools by external users (contact us at EBRAINS support to find out more).
-
-**What is the output of the QUINT workflow?**
------------------------------------------------
-
-The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
 
 **Learn more**
 ================
 
-**Watch our video tutorial**
-------------------------------
+**Watch our video tutorials**
+---------------------------------
 
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-gQigcGMJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-.. tip::   
-   For in-depth tutorials on how to use the software in the QUINT workflow, check out our `online course <https://training.incf.org/course/neuroscience-data-integration-through-use-digital-brain-atlases>`_ available through the INCF training space (parts 7-11). 
-
-
-.. tip::   
-   **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
-
-
-**FAQ**
-------
-
-You can find FAQ for each software here:
-
-`QuickNII FAQ <https://quicknii.readthedocs.io/en/latest/FAQ.html>`_
-
-`VisuAlign FAQ <https://visualign.readthedocs.io/en/latest/FAQ.html>`_
-
-`Ilastik FAQ <https://quint-workflow.readthedocs.io/en/latest/Ilastik.html#faq-and-troubleshooting/>`_
-
-`Nutil FAQ <https://nutil.readthedocs.io/en/latest/FAQ.html>`_
-
+.For in-depth tutorials on how to use the software in the QUINT workflow, check out our `online course <https://training.incf.org/course/neuroscience-data-integration-through-use-digital-brain-atlases>`_ available through the INCF training space (parts 7-11). 
 
 **Examples of use**
 ----------------------------------
@@ -123,6 +107,18 @@ QUINT is suited for sections from mouse and rat brain that have been labelled to
 * Bjerke IE, Yates SC, Laja A, Witter MP, Puchades MA, Bjaalie JG and Leergaard TB. Densities and numbers of calbindin and parvalbumin positive neurons across the rat and mouse brain. 2021, iScience.https://doi.org/10.1016/j.isci.2020.101906
 
 
+**FAQ**
+------
+
+You can find FAQ for each software here:
+
+`QuickNII FAQ <https://quicknii.readthedocs.io/en/latest/FAQ.html>`_
+
+`VisuAlign FAQ <https://visualign.readthedocs.io/en/latest/FAQ.html>`_
+
+`Ilastik FAQ <https://quint-workflow.readthedocs.io/en/latest/Ilastik.html#faq-and-troubleshooting/>`_
+
+`Nutil FAQ <https://nutil.readthedocs.io/en/latest/FAQ.html>`_
 
 
 
