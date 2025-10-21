@@ -7,8 +7,8 @@ The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, 
 
 .. tip::   
    **Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ **for more information about QUINT.**
-
-**Which atlases are supported**
+ 
+**Which atlases are supported?**
 -----------------------------------
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3 (CCFv3) (delineations from 2017 or 2015).
@@ -22,23 +22,23 @@ The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, 
 -----------------------------------------------
 
 The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
- 
 
 **How to access the QUINT workflow?**   
 ======================================
 
-The QUINT workflow involves defined steps using several desktop applications (QuickNII, VisuAlign, Nutil and an image analysis tool such as ilastik). Optional functionality is available using QCAlign (a desktop application), DeepSlice and MeshView (web-applications). The desktop applications are available for download at `NITRC.org <https://www.nitrc.org>`_, with direct download links provided on the pages for each tool.
+The QUINT workflow involves defined steps using several desktop applications. The desktop applications are available for download at `NITRC.org <https://www.nitrc.org>`_, with direct download links provided on the pages for each tool.
 
 .. tip::   
-   An online version of the QUINT workflow, accessible through the EBRAINS research infrastructure, is under development. This will provide tighter integration of the tools and new features such as shareable microscopy viewer links and automated plotting. If you are interested in testing and giving feedback on an alpha version, please get in touch. 
+   An online version of the QUINT workflow, accessible through the EBRAINS research infrastructure, is under development. This will provide tighter integration of the tools and new features such as shareable microscopy viewer links and automated plotting. If you are interested in testing and giving feedback on an alpha version on the QUINT online workflow, please get in touch.
 
-1. **Prepare section images** for analysis using *Nutil* or another image editing tool (rename the files to meet the QUINT naming convention and downscale to the optimal resolution).
-2. **Register the section images to an atlas**. Linear registration is performed using *QuickNII*, *VisuAlign* supports refining the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* can automate the linear registration step.  
-3. **Extract features** using *ilastik* or another image analysis tool such as *NIH ImageJ* or *QuPath*. 
+Steps in the QUINT workflow:
+
+1. **Prepare section images** for analysis using *Nutil* or another image editing tool (rename the files to meet the QUINT naming convention and downscale the images).
+2. **Register the section images to An atlas**. Linear registration is performed using *QuickNII*, *VisuAlign* supports refining the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* (a web-application) can automate the linear registration step.  
+3. **Extract features** to be quantified using *ilastik* or another image analysis tool such as *NIH ImageJ* or *QuPath*. 
 4. **Quantify features** in atlas regions using *Nutil*.
 5. **Perform quality control** steps with *QCAlign* (optional). This allows checks for tissue damage and quality control of the atlas-registration to the sections. It enables exploration of the atlas hierarchy and creation of customised compilations of regions to use for Nutil quantification.
 6. **Visualise** the results in 3D atlas space using the online *MeshView* Atlas Viewer.
-
 
 **Learn more**
 ================
@@ -50,7 +50,7 @@ The QUINT workflow involves defined steps using several desktop applications (Qu
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-gQigcGMJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-.For in-depth tutorials on how to use the software in the QUINT workflow, check out our `online course <https://training.incf.org/course/neuroscience-data-integration-through-use-digital-brain-atlases>`_ available through the INCF training space (parts 7-11). 
+For in-depth tutorials on how to use the software in the QUINT workflow, check out our `online course <https://training.incf.org/course/neuroscience-data-integration-through-use-digital-brain-atlases>`_ available through the INCF training space (parts 7-11). 
 
 **Examples of use**
 ----------------------------------
