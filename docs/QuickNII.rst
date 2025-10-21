@@ -2,15 +2,14 @@
 --------------
 
 .. note::
-   `QuickNII user manual and download <https://quicknii.readthedocs.io/en/latest/>`_.
-   
-   RRID:SCR_016854.
+   `QuickNII user manual and download information <https://quicknii.readthedocs.io/en/latest/>`_. RRID:SCR_016854.
 
 *QuickNII* is a tool for linear registration of (serial) 2D image data to 3D reference atlases of the brain. It currently supports the:
 
 * Allen Mouse Brain Atlas Common Coordinate Framework version 3, 2015 and 2017.
 * Waxholm Atlas of the Sprague Dawley Rat, version 2, 3 and 4. 
 * `New Unified Mouse atlas from the KIM lab <https://www.ebrains.eu/news-and-events/new-unified-mouse-atlas-from-the-kim-lab-is-now-available-in-the-ebrains-quicknii-image-registration-tool/>`_.
+* `Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) <https://www.ebrains.eu/news-and-events/4d-atlas-representing-mouse-brain-development-from-adolescence-to-adulthood-now-available-on-ebrains>`_
 
 The registration process is semi-automated:
 
