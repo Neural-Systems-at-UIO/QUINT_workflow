@@ -24,7 +24,7 @@ The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, 
 The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
 
 **How to access the QUINT workflow?**   
-======================================
+---------------------------------------
 
 The QUINT workflow involves defined steps using several desktop applications. The desktop applications are available for download at `NITRC.org <https://www.nitrc.org>`_, with direct download links provided on the pages for each tool.
 
