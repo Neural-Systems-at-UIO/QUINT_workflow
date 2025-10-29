@@ -1,7 +1,7 @@
 **What is the QUINT workflow?**
 =================================
 
-The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, enabling brain-wide mapping and regional quantification using a reference brain atlas. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. It combines the use of a series of standalone desktop applications with graphical user interfaces (GUI), no coding ability required. 
+The QUINT workflow supports the analysis of 2D rodent brain microscopy data, enabling brain-wide mapping and regional quantification using a reference brain atlas. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. It combines the use of a series of standalone desktop applications with graphical user interfaces (GUI), no coding ability required. 
 
 .. image:: images/QUINT_image.PNG
 
@@ -18,10 +18,14 @@ The QUINT workflow is an analysis solution for 2D rodent brain microscopy data, 
 * Developmental Mouse Brain Atlas for ages P4-P56 (DeMBA) with Kim Lab developmental delineations (KimLabDev CCFv001).
 * Some other atlases have been made available in our tools by external users (contact us at EBRAINS support to find out more).
 
+.. image:: images/atlases.PNG
+
 **What is the output of the QUINT workflow?**
 -----------------------------------------------
 
-The QUINT workflow takes brain section image series as input, and generates counts of labelled objects, area fraction per atlas-region, and coordinates for visualising objects in 3D atlas space.
+The QUINT workflow generates reports with feature counts and area fraction in reference atlas regions, and point clouds that can be used to visualise the features in 3D reference space using our online Meshview Atlas Viewer.  
+
+.. image:: images/results.PNG
 
 **How to access the QUINT workflow?**   
 ---------------------------------------
@@ -31,17 +35,17 @@ The QUINT workflow involves defined steps using several desktop applications. Th
 .. tip::   
    An online version of the QUINT workflow, accessible through the EBRAINS research infrastructure, is under development. This will provide tighter integration of the tools and new features such as shareable microscopy viewer links and automated plotting. If you are interested in testing and giving feedback on an alpha version on the QUINT online workflow, please get in touch.
 
-Steps in the QUINT workflow:
+**Steps in the QUINT workflow:**
 
 1. **Prepare section images** for analysis using *Nutil* or another image editing tool (rename the files to meet the QUINT naming convention and downscale the images).
-2. **Register the section images to An atlas**. Linear registration is performed using *QuickNII*, *VisuAlign* supports refining the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* (a web-application) can automate the linear registration step.  
+2. **Register the section images to an atlas**. Linear registration is performed using *QuickNII*, *VisuAlign* supports refining the registration using non-linear methods. For coronal mouse brain sections, *DeepSlice* (a web-application) can automate the linear registration step.  
 3. **Extract features** to be quantified using *ilastik* or another image analysis tool such as *NIH ImageJ* or *QuPath*. 
 4. **Quantify features** in atlas regions using *Nutil*.
 5. **Perform quality control** steps with *QCAlign* (optional). This allows checks for tissue damage and quality control of the atlas-registration to the sections. It enables exploration of the atlas hierarchy and creation of customised compilations of regions to use for Nutil quantification.
 6. **Visualise** the results in 3D atlas space using the online *MeshView* Atlas Viewer.
 
 **Learn more**
-================
+---------------
 
 **Watch our video tutorials**
 ---------------------------------
