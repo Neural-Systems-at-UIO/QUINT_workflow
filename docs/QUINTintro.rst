@@ -35,7 +35,7 @@ The QUINT workflow generates reports with feature counts and area fraction in re
 The QUINT workflow involves defined steps using several desktop applications. The desktop applications are available for download at `NITRC.org <https://www.nitrc.org>`_, with direct download links provided on the pages for each tool.
 
 .. tip::   
-   An online version of the QUINT workflow, accessible through the EBRAINS research infrastructure, is under development. This will provide tighter integration of the tools and new features such as shareable microscopy viewer links and automated plotting. If you are interested in testing and giving feedback on an alpha version on the QUINT online workflow, please get in touch.
+   An `online version of the QUINT workflow <https://quint-webtools.readthedocs.io/en/latest/>`_, accessible through the EBRAINS research infrastructure, is under development. This will provide tighter integration of the tools and new features such as shareable microscopy viewer links and automated plotting. If you are interested in testing and giving feedback on an alpha version on the QUINT online workflow, please get in touch.
 
 **Steps in the QUINT workflow:**
 
